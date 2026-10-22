@@ -29,5 +29,5 @@
 
 公开前完整重训与原保存结果的比较见 [VALIDATION.md](../VALIDATION.md)。[完整复算机器记录](full_reproduction_report.json) 中的输入指纹对应所测计算代码与数据；文档和展示文件不纳入这个计算指纹。旧记录中的本地冻结与解封时间不更新。
 
-当前为本地 v1.0.0 候选版。没有设置远端仓库、创建线上版本或给未发布项目分配 DOI。
+正式版本为 [v1.0.0](https://github.com/SHIN09-git/ocx24-her-co-selectivity/releases/tag/v1.0.0)（2026-10-22），仓库为 [SHIN09-git/ocx24-her-co-selectivity](https://github.com/SHIN09-git/ocx24-her-co-selectivity)。发布时补充实际仓库与引用信息，不改变冻结数据、模型或已测计算指纹；未分配 DOI。
 

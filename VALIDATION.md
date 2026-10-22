@@ -1,6 +1,6 @@
 # 发布验证记录
 
-验证日期：2026-10-22。验证针对本地 v1.0.0 候选包，不能解释为已在 GitHub 发布或通过外部同行评审。
+验证日期：2026-10-22。本页保留发布准备阶段的本地完整复算证据。正式版本为 v1.0.0；发布与程序核查不表示已通过外部同行评审。
 
 ## 完整重训与结果比较
 
@@ -29,7 +29,7 @@
 
 发布文档的本地链接、CITATION.cff 1.2.0 结构、七张内嵌图与原 PNG 的对应关系，以及最终计算文件与已测指纹的匹配均已检查，详见 [打包检查记录](provenance/package_checks.json)。检查所选 163 份原始项目文件时，哈希均与整理前一致。正文扫描未发现本机绝对路径或所列常见私钥/令牌模式；这不等于覆盖所有可能的敏感信息格式。
 
-本次实际完整重训平台为 Windows；macOS 和 Linux 未在本机运行。仓库附 Windows / Ubuntu 的 GitHub Actions 工作流，但当前尚未推送，本地准备不能算作线上 CI 已通过。
+上述本地完整重训在 Windows 执行；macOS 和 Linux 未在本机运行。线上工作流分别使用 Windows / Ubuntu，其逐提交状态见 [GitHub Actions](https://github.com/SHIN09-git/ocx24-her-co-selectivity/actions/workflows/reproduce.yml)。本地记录不替代线上结果；正式发布采用的运行证据见 [v1.0.0 发布说明](https://github.com/SHIN09-git/ocx24-her-co-selectivity/releases/tag/v1.0.0)。
 
 七张图保留原始 PNG，验证的是对应数值与结果表，不是重新绘图或像素一致性。报告 HTML 由中文 Markdown 生成，并内嵌这些图。
 

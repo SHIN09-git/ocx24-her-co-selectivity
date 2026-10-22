@@ -9,8 +9,8 @@
     },
     {
       "path": ".github/workflows/reproduce.yml",
-      "bytes": 827,
-      "sha256": "e89eb5d5406caf9b5c356fcc4b6283d05e0b8289eca61bdf2047d526ffb78674"
+      "bytes": 848,
+      "sha256": "9bdb1ad5e970f0c6ddcdee03804f1ea90fc69a7909617bc6aea4cced9f27d2fe"
     },
     {
       "path": ".gitignore",
@@ -834,8 +834,8 @@
     },
     {
       "path": "05_reports/report.html",
-      "bytes": 745268,
-      "sha256": "26db47d75f24ab8cbee1a47e5450a8ea578c6f20d79db8b51ed7cc9a47ba7683"
+      "bytes": 745325,
+      "sha256": "c2abd0fa7c5c6f3f7b7cb39440212686d7882b10b94a5031327e44c5a1758f0e"
     },
     {
       "path": "05_reports/数据字典.md",
@@ -844,8 +844,8 @@
     },
     {
       "path": "05_reports/首期计算研究报告.md",
-      "bytes": 16891,
-      "sha256": "8d91e1f68417aee89feb313e17a90fdc2cddef72a93b3f16c53e399bee6be518"
+      "bytes": 16937,
+      "sha256": "7a8c8c90264f1029937f4f75d5290de971c049d935584f97ac5379ef830372ad"
     },
     {
       "path": "AUTHORSHIP.md",
@@ -854,8 +854,8 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 1262,
-      "sha256": "47b32b2015854dc1f60307907292dcf985a65e24d7772674ac1f2bd9269ffbf8"
+      "bytes": 1493,
+      "sha256": "0fe2a869fa8dcec9d8c2173711fde0070b012ed95a10d7fe6bbe499ba5f01744"
     },
     {
       "path": "LICENSE",
@@ -890,12 +890,12 @@
     {
       "path": "provenance/package_checks.json",
       "bytes": 548,
-      "sha256": "c1d9aba0ffd7d613569a9bb11d92beae323b5d84e821c15fceaa7c49e3fb98e8"
+      "sha256": "2502a178edade63d023c778f5aff4e6b948db64c1ef9e67aa30b6786f2f0baef"
     },
     {
       "path": "provenance/PACKAGING.md",
-      "bytes": 2642,
-      "sha256": "5af670afd05a21533953ae3365002ad1f4b2cecfb204874e8c984f6f10a44037"
+      "bytes": 2868,
+      "sha256": "25e58e0110799dd197630a0796f185633bf335f00871b206b95a5750c67b9167"
     },
     {
       "path": "provenance/upstream_verification.json",
@@ -904,23 +904,23 @@
     },
     {
       "path": "PUBLISHING.md",
-      "bytes": 1619,
-      "sha256": "25aee141d1c5b2d7bdf6d658825bd9c97dc966a274b755586395c4a04e62dc2a"
+      "bytes": 1509,
+      "sha256": "0a76ffda52839b76eece671484ba463b3116febfd6e50d4910f89457cb963449"
     },
     {
       "path": "README.en.md",
-      "bytes": 3734,
-      "sha256": "662fa6cd6c326a7bb41db41ef285d7699b01b18a0f9b96b38393beaf4c4aa636"
+      "bytes": 3936,
+      "sha256": "5acb202fcb4b31f63ade014a6cb5fb13cb3e1198cd9137082d1ea44dbbbfa9d8"
     },
     {
       "path": "README.md",
-      "bytes": 5842,
-      "sha256": "b755603dad8698111ffdcad21dd470441a9f39d3da590b080bef38f0b3414d18"
+      "bytes": 6009,
+      "sha256": "f80a696c93bdb6e50c208f49b411c5f68c8b11d2dd5d92e22ee01df128892734"
     },
     {
       "path": "RELEASE_NOTES.md",
-      "bytes": 1080,
-      "sha256": "db20f5f2293597fc48be501bd389bd03b4c6e1551cda173bb6634db61ae99e79"
+      "bytes": 1511,
+      "sha256": "335d75d8880e6ddfa1a2085078534e266f4b313bc63c3a560e2f202b68c6529f"
     },
     {
       "path": "reproduce.py",
@@ -944,8 +944,8 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 2447,
-      "sha256": "8115a4c91f3255e54ef4a2cc62b142ac6befcc6ab004c8d06363c48c09e15914"
+      "bytes": 2520,
+      "sha256": "709c24ef3d7a24cd1b8db9eadff478d8793d3c55b1c0a639b8888a1d05b9dd3b"
     },
     {
       "path": "tools/build_report.py",
@@ -959,8 +959,8 @@
     },
     {
       "path": "VALIDATION.md",
-      "bytes": 2940,
-      "sha256": "b2e5ac64669dbd094b78c64d477ba5882e7c96910795cd0c5b353ccbe1dadfb2"
+      "bytes": 3204,
+      "sha256": "8e456e416cf15b4172236103a271bde51a96fa86089a0f12f8d0c670893c0384"
     }
   ]
 }

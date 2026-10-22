@@ -2,6 +2,7 @@ name: Reproduce frozen analysis
 on:
   workflow_dispatch:
   push:
+    branches: [main]
     paths-ignore:
       - '**.md'
       - '**.html'

@@ -4,7 +4,7 @@
 
 **在固定的 OCx24 数据、输入和模型范围内，加入 HER 前测没有带来稳定的 CO 选择性预测收益。** 这是一项可复现的负结果与方法研究，不是新材料发现，也不能推出 HER 在所有条件下都没有价值。
 
-作者：**JIN HANZHE**，Independent Researcher, Chongqing, China。联系：jinhanzhe09@gmail.com。原分析日期：2026-10-12；公开版整理日期：2026-10-22。当前为 **v1.0.0 本地发布候选版**，尚未建立本项目的公开仓库或发布版本；未进行独立人工科学复核或同行评审。
+作者：**JIN HANZHE**，Independent Researcher, Chongqing, China。联系：jinhanzhe09@gmail.com。原分析日期：2026-10-12；公开版整理日期：2026-10-22。版本：**[v1.0.0](https://github.com/SHIN09-git/ocx24-her-co-selectivity/releases/tag/v1.0.0)（2026-10-22）**。未进行独立人工科学复核或同行评审。
 
 ## 研究问题与主要结果
 
@@ -23,7 +23,7 @@ M0 使用目标配方的元素比例与合成来源；M1 仅增加同电极 HER 
 
 ## 两种复现入口
 
-先安装 Python 3.12，进入解压后的仓库目录。**快速核查只用 Python 标准库，不需要下载数据或安装第三方包：**
+从 [v1.0.0 发布页](https://github.com/SHIN09-git/ocx24-her-co-selectivity/releases/tag/v1.0.0) 下载源代码包并解压，或克隆本仓库。先安装 Python 3.12，再进入包含复现入口的目录。**快速核查只用 Python 标准库，不需要下载数据或安装第三方包：**
 
 ```console
 python reproduce.py
@@ -49,7 +49,7 @@ python reproduce.py --full
 - [冻结方案](00_admin/preregistered_analysis_plan.json)、[原始划分](00_admin/split_manifest.json)、[原始解封记录](00_admin/holdout_unsealed.json)：保留历史字节与时间。
 - [开发集结果](04_results/primary_comparisons.csv)、[预留结果](04_results/holdout_results.json)：主要数值。
 - [上游来源清单](01_sources/download_manifest.json)、[打包变更记录](provenance/PACKAGING.md)：版本、下载来源与哈希。
-- [引用信息](CITATION.cff)、[发布说明草稿](RELEASE_NOTES.md)：供后续公开使用。
+- [引用信息](CITATION.cff)、[发布说明](RELEASE_NOTES.md)：供后续公开使用。
 
 ## 结论的边界
 

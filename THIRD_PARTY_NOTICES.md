@@ -18,7 +18,7 @@ Copyright (c) Meta, Inc. and affiliates. MIT License，完整文本保留于 [01
 
 ## 建议同时引用
 
-1. 本二次分析：JIN HANZHE. *A grouped evaluation of HER premeasurement for CO selectivity prediction in OCx24*. v1.0.0，本地发布候选版，2026。机器可读信息见 [CITATION.cff](CITATION.cff)。正式发布后应补充实际仓库与版本链接。
+1. 本二次分析：JIN HANZHE. *A grouped evaluation of HER premeasurement for CO selectivity prediction in OCx24*. [v1.0.0](https://github.com/SHIN09-git/ocx24-her-co-selectivity/releases/tag/v1.0.0)，2026。[公开仓库](https://github.com/SHIN09-git/ocx24-her-co-selectivity)；机器可读信息见 [CITATION.cff](CITATION.cff)。
 2. 上述 Abed 等的 OCx24 论文及固定版本数据来源。
 
 本包没有附其他论文全文或第三方付费附件。

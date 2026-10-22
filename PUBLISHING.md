@@ -1,19 +1,18 @@
-# 后续发布说明
+# 发布与维护记录
 
-当前只准备本地发布候选包，不执行线上创建、推送或发布。
+公开仓库：[SHIN09-git/ocx24-her-co-selectivity](https://github.com/SHIN09-git/ocx24-her-co-selectivity)  
+正式版本：[v1.0.0](https://github.com/SHIN09-git/ocx24-her-co-selectivity/releases/tag/v1.0.0)  
+发布日期：2026-10-22。
 
-建议仓库名：`ocx24-her-co-selectivity`。候选版本：`v1.0.0`。作者信息、双语说明、许可、完整中文报告、原始数据来源、引用文件及复现入口均已提供。
+版本附件提供完整源代码包、可单独阅读的中文 HTML 报告及 SHA256 校验和。仓库中的 `RELEASE_MANIFEST.json` 覆盖发布文件，清单本身除外。
 
-获得发布指令后，发布者按以下顺序完成：
+## 后续维护顺序
 
-1. 在选定 GitHub 账号下确认仓库名称可用，建立公开仓库。
-2. 将 README、英文 README、报告和发布说明中的“本地候选版”更新为实际发布状态。在 CITATION.cff 添加实际仓库 URL 与真实发布日期，不补造 DOI。
-3. 如修改报告 Markdown，安装 `requirements-report.txt` 后运行 `python tools/build_report.py` 更新 HTML。
-4. 检查更改后运行 `python tools/make_manifest.py` 冻结新清单，再运行 `python reproduce.py`。该工具用于维护者有意修改后的新版本，不用于跳过文件损坏检查。
-5. 提交最终状态并推送主分支，检查随仓库提供的自动复算。工作流首次线上运行尚未完成，不能引用为已有验证。
-6. 将通过检查的提交标记为 v1.0.0，使用 [RELEASE_NOTES.md](RELEASE_NOTES.md) 作为正文基础，附源代码包、报告及校验和。
+1. 在新提交中修改目标文件，保留原冻结证据。若修改计算代码、输入或模型配置，重新运行完整复算。
+2. 如修改中文报告，安装 `requirements-report.txt` 后运行 `python tools/build_report.py` 更新 HTML。
+3. 更新版本、引用文件和发布说明，再运行 `python tools/make_manifest.py` 冻结新清单。该工具只用于维护者有意修改后的版本，不用于掩盖损坏检查失败。
+4. 运行快速核查和适用的完整复算，检查最终源代码包能否解压并复现。核对线上工作流对应的提交；状态入口见 [Actions](https://github.com/SHIN09-git/ocx24-her-co-selectivity/actions/workflows/reproduce.yml)。
+5. 将确定的提交标记为新版本，附带源代码包、报告和新校验和。已发布的 v1.0.0 标签和附件作为历史版本保留。
 
-若计算代码、冻结输入或模型配置发生变化，必须重新完整复算。仅修改发布 URL 和状态也应重新检查引用、文档链接、文件哈希及最终源代码包。保留当前完整重训记录，不将历史测试重新标记为新盲测。
-
-此清单不授权新的模型搜索、湿实验或替作者声明同行评审完成。
+只修改网址或发布文字，也应重新检查引用、文档链接、文件哈希与压缩包。保留原始完整重训记录，公开标签不会重新成为盲测数据。
 

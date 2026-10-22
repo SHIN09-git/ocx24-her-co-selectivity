@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Please cite both this secondary analysis and the original OCx24 dataset/paper. This is a local release candidate; publication URL and release date have not been assigned."
+message: "Please cite both this secondary analysis and the original OCx24 dataset/paper. See THIRD_PARTY_NOTICES.md for the upstream attribution."
 type: software
 title: "A grouped evaluation of HER premeasurement for CO selectivity prediction in OCx24"
 authors:
@@ -8,6 +8,9 @@ authors:
     affiliation: "Independent Researcher, Chongqing, China"
     email: jinhanzhe09@gmail.com
 version: 1.0.0
+date-released: "2026-10-22"
+repository-code: "https://github.com/SHIN09-git/ocx24-her-co-selectivity"
+url: "https://github.com/SHIN09-git/ocx24-her-co-selectivity/releases/tag/v1.0.0"
 license:
   - MIT
   - CC-BY-4.0
@@ -26,5 +29,7 @@ preferred-citation:
     - family-names: JIN
       given-names: HANZHE
   year: 2026
-  notes: "Version 1.0.0, local release candidate. Original analysis 2026-10-12; public packaging 2026-10-22. Not peer reviewed."
+  date-published: "2026-10-22"
+  url: "https://github.com/SHIN09-git/ocx24-her-co-selectivity/releases/tag/v1.0.0"
+  notes: "Version 1.0.0. Original analysis 2026-10-12; released 2026-10-22. Not peer reviewed."
 

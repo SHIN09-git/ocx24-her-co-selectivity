@@ -4,7 +4,7 @@
 
 **HER premeasurement did not provide stable incremental predictive value within the fixed OCx24 dataset, inputs and model classes studied here.** This release preserves a negative result and its auditable computational workflow. It does not establish that HER is universally uninformative.
 
-Author: **JIN HANZHE**, Independent Researcher, Chongqing, China. Contact: jinhanzhe09@gmail.com. Original analysis: 2026-10-12. Public packaging: 2026-10-22. **Local v1.0.0 release candidate; this project has not yet been published.** No independent human scientific verification, laboratory replication or peer review is claimed.
+Author: **JIN HANZHE**, Independent Researcher, Chongqing, China. Contact: jinhanzhe09@gmail.com. Original analysis: 2026-10-12. Public packaging: 2026-10-22. **[v1.0.0](https://github.com/SHIN09-git/ocx24-her-co-selectivity/releases/tag/v1.0.0), released 2026-10-22.** No independent human scientific verification, laboratory replication or peer review is claimed.
 
 The analysis tests whether absolute HER full-cell voltage at 50 mA/cm² improves prediction of CO Faradaic efficiency at 200 mA/cm². M0 uses nominal elemental fractions and synthesis source; M1 adds HER voltage. The primary model is a restricted random forest, with ridge and XRF-based comparisons.
 
@@ -17,7 +17,7 @@ Errors are preparation-equal MAEs in percentage points. Intervals resample eleme
 
 ## Reproduce
 
-With Python 3.12, the default audit needs only the standard library:
+Download and extract the source bundle from the [v1.0.0 release](https://github.com/SHIN09-git/ocx24-her-co-selectivity/releases/tag/v1.0.0), or clone this repository. With Python 3.12, the default audit needs only the standard library:
 
 ```console
 python reproduce.py
