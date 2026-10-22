@@ -1,0 +1,2 @@
+task,cluster,electrodes,prep_groups,M0_MAE,M1_MAE,gain_pp_or_V,relative_gain_pct,gain_CI95_low,gain_CI95_high,bootstrap_positive_fraction_descriptive,cluster_count
+nominal_random_forest_batch_id_co_fe_pct,batch_id,404,216,15.934036130144763,15.174264743200503,0.7597713869442604,4.768229347157616,-0.5140890894668326,2.270215093378943,0.8788,19

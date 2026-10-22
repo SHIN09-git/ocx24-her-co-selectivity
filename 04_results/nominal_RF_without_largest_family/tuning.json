@@ -1,0 +1,402 @@
+[
+  {
+    "fold": 0,
+    "variant": "M0",
+    "best": {
+      "max_depth": 6,
+      "min_samples_leaf": 3
+    },
+    "scores": [
+      {
+        "params": {
+          "max_depth": 3,
+          "min_samples_leaf": 3
+        },
+        "inner_group_mae": 15.377268192803326
+      },
+      {
+        "params": {
+          "max_depth": 3,
+          "min_samples_leaf": 8
+        },
+        "inner_group_mae": 15.52852160093
+      },
+      {
+        "params": {
+          "max_depth": 6,
+          "min_samples_leaf": 3
+        },
+        "inner_group_mae": 14.904363643715628
+      },
+      {
+        "params": {
+          "max_depth": 6,
+          "min_samples_leaf": 8
+        },
+        "inner_group_mae": 15.406752188309063
+      }
+    ],
+    "train_groups": 29,
+    "validation_groups": 8
+  },
+  {
+    "fold": 0,
+    "variant": "M1",
+    "best": {
+      "max_depth": 6,
+      "min_samples_leaf": 3
+    },
+    "scores": [
+      {
+        "params": {
+          "max_depth": 3,
+          "min_samples_leaf": 3
+        },
+        "inner_group_mae": 15.167564285589517
+      },
+      {
+        "params": {
+          "max_depth": 3,
+          "min_samples_leaf": 8
+        },
+        "inner_group_mae": 15.179296207951083
+      },
+      {
+        "params": {
+          "max_depth": 6,
+          "min_samples_leaf": 3
+        },
+        "inner_group_mae": 14.73571488561838
+      },
+      {
+        "params": {
+          "max_depth": 6,
+          "min_samples_leaf": 8
+        },
+        "inner_group_mae": 15.13126980168056
+      }
+    ],
+    "train_groups": 29,
+    "validation_groups": 8
+  },
+  {
+    "fold": 1,
+    "variant": "M0",
+    "best": {
+      "max_depth": 3,
+      "min_samples_leaf": 3
+    },
+    "scores": [
+      {
+        "params": {
+          "max_depth": 3,
+          "min_samples_leaf": 3
+        },
+        "inner_group_mae": 10.378274760438087
+      },
+      {
+        "params": {
+          "max_depth": 3,
+          "min_samples_leaf": 8
+        },
+        "inner_group_mae": 11.669346968817157
+      },
+      {
+        "params": {
+          "max_depth": 6,
+          "min_samples_leaf": 3
+        },
+        "inner_group_mae": 11.146104979761237
+      },
+      {
+        "params": {
+          "max_depth": 6,
+          "min_samples_leaf": 8
+        },
+        "inner_group_mae": 12.012816317016988
+      }
+    ],
+    "train_groups": 29,
+    "validation_groups": 8
+  },
+  {
+    "fold": 1,
+    "variant": "M1",
+    "best": {
+      "max_depth": 3,
+      "min_samples_leaf": 3
+    },
+    "scores": [
+      {
+        "params": {
+          "max_depth": 3,
+          "min_samples_leaf": 3
+        },
+        "inner_group_mae": 12.01217377940221
+      },
+      {
+        "params": {
+          "max_depth": 3,
+          "min_samples_leaf": 8
+        },
+        "inner_group_mae": 12.57766375632664
+      },
+      {
+        "params": {
+          "max_depth": 6,
+          "min_samples_leaf": 3
+        },
+        "inner_group_mae": 12.523164872467428
+      },
+      {
+        "params": {
+          "max_depth": 6,
+          "min_samples_leaf": 8
+        },
+        "inner_group_mae": 12.932695374172557
+      }
+    ],
+    "train_groups": 29,
+    "validation_groups": 8
+  },
+  {
+    "fold": 2,
+    "variant": "M0",
+    "best": {
+      "max_depth": 6,
+      "min_samples_leaf": 8
+    },
+    "scores": [
+      {
+        "params": {
+          "max_depth": 3,
+          "min_samples_leaf": 3
+        },
+        "inner_group_mae": 16.392858646671314
+      },
+      {
+        "params": {
+          "max_depth": 3,
+          "min_samples_leaf": 8
+        },
+        "inner_group_mae": 15.884541235558437
+      },
+      {
+        "params": {
+          "max_depth": 6,
+          "min_samples_leaf": 3
+        },
+        "inner_group_mae": 16.10685744523641
+      },
+      {
+        "params": {
+          "max_depth": 6,
+          "min_samples_leaf": 8
+        },
+        "inner_group_mae": 15.792850189491817
+      }
+    ],
+    "train_groups": 30,
+    "validation_groups": 7
+  },
+  {
+    "fold": 2,
+    "variant": "M1",
+    "best": {
+      "max_depth": 6,
+      "min_samples_leaf": 3
+    },
+    "scores": [
+      {
+        "params": {
+          "max_depth": 3,
+          "min_samples_leaf": 3
+        },
+        "inner_group_mae": 15.746737206036403
+      },
+      {
+        "params": {
+          "max_depth": 3,
+          "min_samples_leaf": 8
+        },
+        "inner_group_mae": 15.990170393656436
+      },
+      {
+        "params": {
+          "max_depth": 6,
+          "min_samples_leaf": 3
+        },
+        "inner_group_mae": 15.130870999565989
+      },
+      {
+        "params": {
+          "max_depth": 6,
+          "min_samples_leaf": 8
+        },
+        "inner_group_mae": 15.523209556544542
+      }
+    ],
+    "train_groups": 30,
+    "validation_groups": 7
+  },
+  {
+    "fold": 3,
+    "variant": "M0",
+    "best": {
+      "max_depth": 6,
+      "min_samples_leaf": 3
+    },
+    "scores": [
+      {
+        "params": {
+          "max_depth": 3,
+          "min_samples_leaf": 3
+        },
+        "inner_group_mae": 14.932934291111234
+      },
+      {
+        "params": {
+          "max_depth": 3,
+          "min_samples_leaf": 8
+        },
+        "inner_group_mae": 15.58769578958795
+      },
+      {
+        "params": {
+          "max_depth": 6,
+          "min_samples_leaf": 3
+        },
+        "inner_group_mae": 14.770764741841129
+      },
+      {
+        "params": {
+          "max_depth": 6,
+          "min_samples_leaf": 8
+        },
+        "inner_group_mae": 15.461122123702053
+      }
+    ],
+    "train_groups": 30,
+    "validation_groups": 7
+  },
+  {
+    "fold": 3,
+    "variant": "M1",
+    "best": {
+      "max_depth": 6,
+      "min_samples_leaf": 3
+    },
+    "scores": [
+      {
+        "params": {
+          "max_depth": 3,
+          "min_samples_leaf": 3
+        },
+        "inner_group_mae": 15.978198913675858
+      },
+      {
+        "params": {
+          "max_depth": 3,
+          "min_samples_leaf": 8
+        },
+        "inner_group_mae": 16.09360100299071
+      },
+      {
+        "params": {
+          "max_depth": 6,
+          "min_samples_leaf": 3
+        },
+        "inner_group_mae": 15.281405063740078
+      },
+      {
+        "params": {
+          "max_depth": 6,
+          "min_samples_leaf": 8
+        },
+        "inner_group_mae": 15.543048420499082
+      }
+    ],
+    "train_groups": 30,
+    "validation_groups": 7
+  },
+  {
+    "fold": 4,
+    "variant": "M0",
+    "best": {
+      "max_depth": 6,
+      "min_samples_leaf": 8
+    },
+    "scores": [
+      {
+        "params": {
+          "max_depth": 3,
+          "min_samples_leaf": 3
+        },
+        "inner_group_mae": 15.56062328067595
+      },
+      {
+        "params": {
+          "max_depth": 3,
+          "min_samples_leaf": 8
+        },
+        "inner_group_mae": 15.646732290743444
+      },
+      {
+        "params": {
+          "max_depth": 6,
+          "min_samples_leaf": 3
+        },
+        "inner_group_mae": 15.347951019912752
+      },
+      {
+        "params": {
+          "max_depth": 6,
+          "min_samples_leaf": 8
+        },
+        "inner_group_mae": 15.30394679712277
+      }
+    ],
+    "train_groups": 30,
+    "validation_groups": 7
+  },
+  {
+    "fold": 4,
+    "variant": "M1",
+    "best": {
+      "max_depth": 6,
+      "min_samples_leaf": 3
+    },
+    "scores": [
+      {
+        "params": {
+          "max_depth": 3,
+          "min_samples_leaf": 3
+        },
+        "inner_group_mae": 14.594998106817794
+      },
+      {
+        "params": {
+          "max_depth": 3,
+          "min_samples_leaf": 8
+        },
+        "inner_group_mae": 14.808750166157626
+      },
+      {
+        "params": {
+          "max_depth": 6,
+          "min_samples_leaf": 3
+        },
+        "inner_group_mae": 13.1983544100211
+      },
+      {
+        "params": {
+          "max_depth": 6,
+          "min_samples_leaf": 8
+        },
+        "inner_group_mae": 14.172206345303232
+      }
+    ],
+    "train_groups": 30,
+    "validation_groups": 7
+  }
+]

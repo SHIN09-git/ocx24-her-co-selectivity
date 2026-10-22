@@ -1,0 +1,87 @@
+{
+  "title": "HER前测对CO2还原电极筛选的增量价值",
+  "version": "1.0",
+  "status": "locally_frozen_before_model_fit_not_public_preregistration",
+  "frozen_utc": "2026-10-12T05:14:03.258724+00:00",
+  "source_commit": "0a625a8924cf0a87dffbcd2f0ac58d82ca43bfa4",
+  "seed": 20261012,
+  "decision_time": "Before any CO2 electrolysis, after HER 50 mA cm-2 measurement",
+  "primary_outcome": "Measured CO Faradaic efficiency at 200 mA cm-2 in percentage points",
+  "primary_population": "All 441 valid electrode pairs, 230 preparation IDs, 48 nominal element sets",
+  "primary_algorithm": "random_forest",
+  "robustness_algorithm": "ridge",
+  "primary_budget": "nominal elemental fractions + synthesis source",
+  "comparison": "M0 versus M1 with exactly one additional input: absolute HER full-cell voltage",
+  "alternative_budgets": [
+    "XRF metal fractions + source on unambiguous XRF subset",
+    "XRF + 3 XRD summary quantities + 6 mean DFT summaries on exact XRF/source mapped common subset"
+  ],
+  "primary_validation": "development 5-fold outer CV grouped by nominal element set, 4-fold nested inner CV of the same grouping",
+  "other_validation": [
+    "5-fold preparation-ID grouped nested CV",
+    "leave-one-source-out with inner element-group CV",
+    "5-fold batch-ID grouped nested CV"
+  ],
+  "holdout": "10 of 48 nominal element sets chosen using only inputs, 37 electrodes/14 prep IDs; fixed, no reroll. Targets not inspected by model or analyst until one final evaluation after code and comparisons fixed.",
+  "training_weights": "Each preparation group has equal total weight; row weights normalized to mean 1 within training split",
+  "primary_metric": "Mean of within-preparation mean absolute errors. Delta = M0 MAE - M1 MAE; positive favors HER.",
+  "preprocessing": "Numeric median imputation and scaling fit within each training fold. Categorical source/batch uses training-only one-hot with unknown categories ignored. FE predictions clipped to [0,100] for both models; full-cell voltage predictions not clipped.",
+  "hyperparameters": {
+    "ridge": {
+      "alpha": [
+        0.1,
+        1,
+        10,
+        100
+      ]
+    },
+    "random_forest": {
+      "n_estimators": 128,
+      "max_depth": [
+        3,
+        6
+      ],
+      "min_samples_leaf": [
+        3,
+        8
+      ],
+      "max_features": 1.0,
+      "random_state": 20261012,
+      "n_jobs": 1
+    }
+  },
+  "model_selection": "Each model tuned separately within each training fold using identical parameter grids and group-equal MAE; tie uses simpler/first listed setting. RF is primary before results; ridge is robustness, not selected by HER gain.",
+  "uncertainty": "10000 paired cluster bootstrap draws of outer-held-out element families, retain all prep groups within each sampled family, compute ratio of summed errors to prep-group counts; percentile 95% intervals conditional on fitted CV predictions.",
+  "screening": "Candidates are preparation IDs, true and predicted values averaged over electrodes. Top ceil(0.2*N) groups, deterministic ties by prep ID. Recall=intersection/true top-count, enrichment=precision/(true top-count/N); report pooled cross-fit values as descriptive and fold-specific values.",
+  "controls": [
+    "Training-only source mean HER with unseen source global-mean fallback",
+    "Training-only batch mean HER with unseen batch source/global fallback",
+    "Verified source+batch-number categorical baseline M0B versus M1B; dates not modeled",
+    "200 validation-set HER permutations within preparation groups and within batch groups, using correctly trained fold models; permutation is reliance diagnostic, not an exact causal test",
+    "Separate H2 FE and CO2 full-cell voltage outputs, with same feature restrictions",
+    "Leave-family-out influence and source-specific summaries of primary predictions"
+  ],
+  "quality_sensitivity": "Primary retains raw FE; repeat nominal comparison after excluding development rows with CO or H2 outside [0,100], total gas FE >100 or liquid residual <0. Official-clean subset comparison also reported. No normalization of FE to 100.",
+  "repeats": "Report prep-level SD, within-prep pairwise absolute differences, and top-list bootstrap stability on development data; these do not represent all independent synthesis variability.",
+  "five_currents": "Secondary CO comparisons at 50/100/150/300 using same split and model settings, only if the second gate supports extension; 200 remains primary.",
+  "practical_target": "At least 3 percentage points and 10% relative MAE reduction, stable across families and controls. This is an investment threshold, not a requirement to tune until significant.",
+  "stop_policy": "Stop positive materials-screening route if no stable practically useful selectivity gain, HER adds only batch-equivalent information, or contribution reduces to constant unit correction. Deliver negative/applicability report. May run prespecified sealed evaluation to close the computational question regardless of sign; no new models after unsealing.",
+  "unresolved_inputs": {
+    "XRF": "Three relevant electrodes have conflicting replicate-collapsed source mapping; exclude ambiguous XRF from that budget, retain in nominal budget. Reconstructed valid-XRF and official-clean subsets both have 433 rows but are different sets.",
+    "batch_dates": "216 electrodes have raw/metadata date mismatch. Only source+batch number is used as batch identity; no chronology claims.",
+    "DFT": "Summary-file exact XRF/source mapping is an optional published-descriptor budget, not new DFT or proof of identical active phase.",
+    "review": "20-record packet and all ambiguities available; automated checks performed. Human review has not occurred and is not represented as complete."
+  },
+  "novelty_scope": "Original paper including appendices and fixed-version training code plus targeted web searches checked; scaler-transfer HER work and OCx24 exploratory liquid-FE case study are different questions. No exact same validated HER-to-CO task identified in this bounded search; not exhaustive novelty proof.",
+  "forbidden_features": [
+    "Any CO2-stage voltage, FE, partial current, production rate or energy metric",
+    "CO2 readings at 50/100/150 prior to 200",
+    "sample/preparation identity as numeric or categorical predictor",
+    "test-derived target statistics"
+  ],
+  "scope_limits": [
+    "Within one public experimental platform; no independent laboratory validation",
+    "Predictive information, not causal effect of performing HER or proof of mechanism",
+    "No new wet experiments, no GPU purchase, no large new DFT"
+  ]
+}

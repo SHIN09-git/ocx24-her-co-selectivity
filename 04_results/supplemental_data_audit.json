@@ -1,0 +1,21 @@
+{
+  "complete_voltage_sequences": 441,
+  "3_3V_inside_native_voltage_range": 437,
+  "processed_rows": 179,
+  "processed_loco_groups": 45,
+  "quality_counts": {
+    "fe_co_outside_0_100": 0,
+    "fe_h2_outside_0_100": 3,
+    "fe_ch4_outside_0_100": 0,
+    "fe_c2h4_outside_0_100": 0,
+    "gas_total_above_100": 47,
+    "liquid_residual_below_0": 25
+  },
+  "ethylene_processed_normalized_ratio": {
+    "eligible_rows": 79,
+    "min": 5.999999999999981,
+    "median": 6.000000000000028,
+    "max": 6.000000000000358,
+    "explanation": "(listed ethylene rate / 12-electron rate at displayed FE,j) divided by analogous CO ratio; common interpolation factor cancels"
+  }
+}

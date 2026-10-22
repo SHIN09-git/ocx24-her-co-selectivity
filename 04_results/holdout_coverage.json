@@ -1,0 +1,14 @@
+{
+  "electrodes": 37,
+  "prep_groups": 14,
+  "element_groups": 10,
+  "electrode_sources": {
+    "uoft": 36,
+    "vsp": 1
+  },
+  "prep_sources": {
+    "uoft": 13,
+    "vsp": 1
+  },
+  "note": "Input-selected families are uniform by element-set identity, not balanced by electrode count; one held-out source may dominate. No redraw."
+}

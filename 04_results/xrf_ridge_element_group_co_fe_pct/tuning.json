@@ -1,0 +1,352 @@
+[
+  {
+    "fold": 0,
+    "variant": "M0",
+    "best": {
+      "alpha": 100.0
+    },
+    "scores": [
+      {
+        "params": {
+          "alpha": 0.1
+        },
+        "inner_group_mae": 16.06482214574591
+      },
+      {
+        "params": {
+          "alpha": 1.0
+        },
+        "inner_group_mae": 16.02826949956205
+      },
+      {
+        "params": {
+          "alpha": 10.0
+        },
+        "inner_group_mae": 15.80460784163183
+      },
+      {
+        "params": {
+          "alpha": 100.0
+        },
+        "inner_group_mae": 15.67184316083951
+      }
+    ],
+    "train_groups": 29,
+    "validation_groups": 8
+  },
+  {
+    "fold": 0,
+    "variant": "M1",
+    "best": {
+      "alpha": 100.0
+    },
+    "scores": [
+      {
+        "params": {
+          "alpha": 0.1
+        },
+        "inner_group_mae": 16.49367276329022
+      },
+      {
+        "params": {
+          "alpha": 1.0
+        },
+        "inner_group_mae": 16.45982269778072
+      },
+      {
+        "params": {
+          "alpha": 10.0
+        },
+        "inner_group_mae": 16.238761456277867
+      },
+      {
+        "params": {
+          "alpha": 100.0
+        },
+        "inner_group_mae": 15.987252356110888
+      }
+    ],
+    "train_groups": 29,
+    "validation_groups": 8
+  },
+  {
+    "fold": 1,
+    "variant": "M0",
+    "best": {
+      "alpha": 100.0
+    },
+    "scores": [
+      {
+        "params": {
+          "alpha": 0.1
+        },
+        "inner_group_mae": 15.869503083882128
+      },
+      {
+        "params": {
+          "alpha": 1.0
+        },
+        "inner_group_mae": 15.888327670629224
+      },
+      {
+        "params": {
+          "alpha": 10.0
+        },
+        "inner_group_mae": 15.94040239699297
+      },
+      {
+        "params": {
+          "alpha": 100.0
+        },
+        "inner_group_mae": 15.025869116308108
+      }
+    ],
+    "train_groups": 29,
+    "validation_groups": 8
+  },
+  {
+    "fold": 1,
+    "variant": "M1",
+    "best": {
+      "alpha": 100.0
+    },
+    "scores": [
+      {
+        "params": {
+          "alpha": 0.1
+        },
+        "inner_group_mae": 15.968437458336277
+      },
+      {
+        "params": {
+          "alpha": 1.0
+        },
+        "inner_group_mae": 15.929838491962048
+      },
+      {
+        "params": {
+          "alpha": 10.0
+        },
+        "inner_group_mae": 15.627653062003452
+      },
+      {
+        "params": {
+          "alpha": 100.0
+        },
+        "inner_group_mae": 14.69954080109707
+      }
+    ],
+    "train_groups": 29,
+    "validation_groups": 8
+  },
+  {
+    "fold": 2,
+    "variant": "M0",
+    "best": {
+      "alpha": 100.0
+    },
+    "scores": [
+      {
+        "params": {
+          "alpha": 0.1
+        },
+        "inner_group_mae": 17.807097218884213
+      },
+      {
+        "params": {
+          "alpha": 1.0
+        },
+        "inner_group_mae": 17.766754757339744
+      },
+      {
+        "params": {
+          "alpha": 10.0
+        },
+        "inner_group_mae": 17.399725582873092
+      },
+      {
+        "params": {
+          "alpha": 100.0
+        },
+        "inner_group_mae": 16.127746337881106
+      }
+    ],
+    "train_groups": 30,
+    "validation_groups": 7
+  },
+  {
+    "fold": 2,
+    "variant": "M1",
+    "best": {
+      "alpha": 100.0
+    },
+    "scores": [
+      {
+        "params": {
+          "alpha": 0.1
+        },
+        "inner_group_mae": 18.0470116369491
+      },
+      {
+        "params": {
+          "alpha": 1.0
+        },
+        "inner_group_mae": 18.019158041964463
+      },
+      {
+        "params": {
+          "alpha": 10.0
+        },
+        "inner_group_mae": 17.604439027842787
+      },
+      {
+        "params": {
+          "alpha": 100.0
+        },
+        "inner_group_mae": 16.318162959636062
+      }
+    ],
+    "train_groups": 30,
+    "validation_groups": 7
+  },
+  {
+    "fold": 3,
+    "variant": "M0",
+    "best": {
+      "alpha": 100.0
+    },
+    "scores": [
+      {
+        "params": {
+          "alpha": 0.1
+        },
+        "inner_group_mae": 15.3733184063218
+      },
+      {
+        "params": {
+          "alpha": 1.0
+        },
+        "inner_group_mae": 15.364688980984162
+      },
+      {
+        "params": {
+          "alpha": 10.0
+        },
+        "inner_group_mae": 15.341931607898287
+      },
+      {
+        "params": {
+          "alpha": 100.0
+        },
+        "inner_group_mae": 15.239494945491003
+      }
+    ],
+    "train_groups": 30,
+    "validation_groups": 7
+  },
+  {
+    "fold": 3,
+    "variant": "M1",
+    "best": {
+      "alpha": 100.0
+    },
+    "scores": [
+      {
+        "params": {
+          "alpha": 0.1
+        },
+        "inner_group_mae": 16.187622148747177
+      },
+      {
+        "params": {
+          "alpha": 1.0
+        },
+        "inner_group_mae": 16.18668502772596
+      },
+      {
+        "params": {
+          "alpha": 10.0
+        },
+        "inner_group_mae": 16.1774360326555
+      },
+      {
+        "params": {
+          "alpha": 100.0
+        },
+        "inner_group_mae": 15.944202163777044
+      }
+    ],
+    "train_groups": 30,
+    "validation_groups": 7
+  },
+  {
+    "fold": 4,
+    "variant": "M0",
+    "best": {
+      "alpha": 100.0
+    },
+    "scores": [
+      {
+        "params": {
+          "alpha": 0.1
+        },
+        "inner_group_mae": 14.741523274198128
+      },
+      {
+        "params": {
+          "alpha": 1.0
+        },
+        "inner_group_mae": 14.731180898349962
+      },
+      {
+        "params": {
+          "alpha": 10.0
+        },
+        "inner_group_mae": 14.643770248206916
+      },
+      {
+        "params": {
+          "alpha": 100.0
+        },
+        "inner_group_mae": 14.479784530888711
+      }
+    ],
+    "train_groups": 30,
+    "validation_groups": 7
+  },
+  {
+    "fold": 4,
+    "variant": "M1",
+    "best": {
+      "alpha": 100.0
+    },
+    "scores": [
+      {
+        "params": {
+          "alpha": 0.1
+        },
+        "inner_group_mae": 14.697196934798296
+      },
+      {
+        "params": {
+          "alpha": 1.0
+        },
+        "inner_group_mae": 14.692371295766092
+      },
+      {
+        "params": {
+          "alpha": 10.0
+        },
+        "inner_group_mae": 14.651085313288412
+      },
+      {
+        "params": {
+          "alpha": 100.0
+        },
+        "inner_group_mae": 14.479671500710808
+      }
+    ],
+    "train_groups": 30,
+    "validation_groups": 7
+  }
+]

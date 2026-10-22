@@ -1,0 +1,8 @@
+{
+  "electrons_CO2_to_C2H4": 12,
+  "upstream_code_electrons": 2,
+  "nonzero_native_rows": 1388,
+  "ratio_min": 5.999999999999999,
+  "ratio_max": 6.000000000000001,
+  "scope": "Native-point rate comparison; FE unchanged, primary CO FE modeling unaffected; interpolation ratios from processed table are a different calculation"
+}

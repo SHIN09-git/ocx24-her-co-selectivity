@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "Please cite both this secondary analysis and the original OCx24 dataset/paper. This is a local release candidate; publication URL and release date have not been assigned."
+type: software
+title: "A grouped evaluation of HER premeasurement for CO selectivity prediction in OCx24"
+authors:
+  - family-names: JIN
+    given-names: HANZHE
+    affiliation: "Independent Researcher, Chongqing, China"
+    email: jinhanzhe09@gmail.com
+version: 1.0.0
+license:
+  - MIT
+  - CC-BY-4.0
+abstract: "Reproducible grouped evaluation of the incremental predictive value of HER full-cell voltage for CO Faradaic efficiency in a pinned OCx24 dataset. The tested models do not show a stable practically useful gain. The local protocol freeze was not public preregistration; replay is not a new blind evaluation."
+keywords:
+  - OCx24
+  - CO2 reduction
+  - HER
+  - grouped validation
+  - reproducibility
+  - negative results
+preferred-citation:
+  type: report
+  title: "A grouped evaluation of HER premeasurement for CO selectivity prediction in OCx24"
+  authors:
+    - family-names: JIN
+      given-names: HANZHE
+  year: 2026
+  notes: "Version 1.0.0, local release candidate. Original analysis 2026-10-12; public packaging 2026-10-22. Not peer reviewed."
+

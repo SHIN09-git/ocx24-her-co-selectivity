@@ -1,0 +1,323 @@
+{
+  "checks_passed": 79,
+  "checks": [
+    {
+      "check": "frozen protocol and split hashes",
+      "passed": true
+    },
+    {
+      "check": "one row per electrode",
+      "passed": true
+    },
+    {
+      "check": "all preparation groups stay in one partition",
+      "passed": true
+    },
+    {
+      "check": "all element groups stay in one partition",
+      "passed": true
+    },
+    {
+      "check": "HER voltage magnitude positive",
+      "passed": true
+    },
+    {
+      "check": "nominal composition sums to unity",
+      "passed": true
+    },
+    {
+      "check": "xrf composition sums to unity",
+      "passed": true
+    },
+    {
+      "check": "element_group outer fold prep isolation",
+      "passed": true
+    },
+    {
+      "check": "element_group outer fold group isolation",
+      "passed": true
+    },
+    {
+      "check": "element_group outer fold prep isolation",
+      "passed": true
+    },
+    {
+      "check": "element_group outer fold group isolation",
+      "passed": true
+    },
+    {
+      "check": "element_group outer fold prep isolation",
+      "passed": true
+    },
+    {
+      "check": "element_group outer fold group isolation",
+      "passed": true
+    },
+    {
+      "check": "element_group outer fold prep isolation",
+      "passed": true
+    },
+    {
+      "check": "element_group outer fold group isolation",
+      "passed": true
+    },
+    {
+      "check": "element_group outer fold prep isolation",
+      "passed": true
+    },
+    {
+      "check": "element_group outer fold group isolation",
+      "passed": true
+    },
+    {
+      "check": "prep_group outer fold prep isolation",
+      "passed": true
+    },
+    {
+      "check": "prep_group outer fold group isolation",
+      "passed": true
+    },
+    {
+      "check": "prep_group outer fold prep isolation",
+      "passed": true
+    },
+    {
+      "check": "prep_group outer fold group isolation",
+      "passed": true
+    },
+    {
+      "check": "prep_group outer fold prep isolation",
+      "passed": true
+    },
+    {
+      "check": "prep_group outer fold group isolation",
+      "passed": true
+    },
+    {
+      "check": "prep_group outer fold prep isolation",
+      "passed": true
+    },
+    {
+      "check": "prep_group outer fold group isolation",
+      "passed": true
+    },
+    {
+      "check": "prep_group outer fold prep isolation",
+      "passed": true
+    },
+    {
+      "check": "prep_group outer fold group isolation",
+      "passed": true
+    },
+    {
+      "check": "batch_id outer fold prep isolation",
+      "passed": true
+    },
+    {
+      "check": "batch_id outer fold group isolation",
+      "passed": true
+    },
+    {
+      "check": "batch_id outer fold prep isolation",
+      "passed": true
+    },
+    {
+      "check": "batch_id outer fold group isolation",
+      "passed": true
+    },
+    {
+      "check": "batch_id outer fold prep isolation",
+      "passed": true
+    },
+    {
+      "check": "batch_id outer fold group isolation",
+      "passed": true
+    },
+    {
+      "check": "batch_id outer fold prep isolation",
+      "passed": true
+    },
+    {
+      "check": "batch_id outer fold group isolation",
+      "passed": true
+    },
+    {
+      "check": "batch_id outer fold prep isolation",
+      "passed": true
+    },
+    {
+      "check": "batch_id outer fold group isolation",
+      "passed": true
+    },
+    {
+      "check": "source outer fold prep isolation",
+      "passed": true
+    },
+    {
+      "check": "source outer fold group isolation",
+      "passed": true
+    },
+    {
+      "check": "source outer fold prep isolation",
+      "passed": true
+    },
+    {
+      "check": "source outer fold group isolation",
+      "passed": true
+    },
+    {
+      "check": "raw CSV independent check uoft7_240716_Cu-0.833-Pd-0.167_pp0_rep3",
+      "passed": true
+    },
+    {
+      "check": "raw CSV independent check vsp8_240802_Pd-0.5-Zn-0.5_pp0_rep3",
+      "passed": true
+    },
+    {
+      "check": "raw CSV independent check uoft4_240405_Au-0.5-Cu-0.5_pp0_rep1",
+      "passed": true
+    },
+    {
+      "check": "raw CSV independent check uoft4_240405_Pd-0.591-Tl-0.409_pp0_rep3",
+      "passed": true
+    },
+    {
+      "check": "raw CSV independent check vsp11_240802_Ag-0.667-Zn-0.333_pp0_rep1",
+      "passed": true
+    },
+    {
+      "check": "raw CSV independent check vsp8_240802_Pd-1.0_pp0_rep1",
+      "passed": true
+    },
+    {
+      "check": "raw CSV independent check vsp13_240823_Ag-0.125-Au-0.125-Zn-0.75_pp0_rep1",
+      "passed": true
+    },
+    {
+      "check": "raw CSV independent check uoft4_240405_Au-0.2-Cu-0.8_pp0_rep2",
+      "passed": true
+    },
+    {
+      "check": "raw CSV independent check uoft5_240507_Au-0.444-Cd-0.556_pp0_rep2",
+      "passed": true
+    },
+    {
+      "check": "raw CSV independent check uoft7_240716_Pd-0.833-Rh-0.167_pp0_rep3",
+      "passed": true
+    },
+    {
+      "check": "raw CSV independent check uoft8_241025_Ag-0.6-Cd-0.4_pp0_rep3",
+      "passed": true
+    },
+    {
+      "check": "raw CSV independent check uoft4_240405_Ag-0.556-Pd-0.444_pp0_rep2",
+      "passed": true
+    },
+    {
+      "check": "raw CSV independent check vsp23_241025_Ag-0.75-Ga-0.25_pp0_rep2",
+      "passed": true
+    },
+    {
+      "check": "raw CSV independent check uoft4_240405_Ag-0.25-Au-0.25-Pd-0.5_pp0_rep1",
+      "passed": true
+    },
+    {
+      "check": "raw CSV independent check vsp10_240726_Au-0.375-Zn-0.625_pp0_rep1",
+      "passed": true
+    },
+    {
+      "check": "raw CSV independent check uoft8_241025_Ag-0.75-Cd-0.25_pp0_rep1",
+      "passed": true
+    },
+    {
+      "check": "raw CSV independent check uoft7_240716_Au-0.667-Pd-0.333_pp0_rep1",
+      "passed": true
+    },
+    {
+      "check": "raw CSV independent check vsp14_240906_Au-0.571-Cu-0.286-Zn-0.143_pp0_rep1",
+      "passed": true
+    },
+    {
+      "check": "raw CSV independent check uoft8_241025_Au-0.333-Pd-0.667_pp0_rep2",
+      "passed": true
+    },
+    {
+      "check": "raw CSV independent check vsp15_240809_Au-0.375-In-0.25-Pd-0.375_pp0_rep2",
+      "passed": true
+    },
+    {
+      "check": "group-equal metric independent of number of repeats",
+      "passed": true
+    },
+    {
+      "check": "M0 features independent of evaluation outcomes",
+      "passed": true
+    },
+    {
+      "check": "M0 input column whitelist",
+      "passed": true
+    },
+    {
+      "check": "M1 features independent of evaluation outcomes",
+      "passed": true
+    },
+    {
+      "check": "M1 input column whitelist",
+      "passed": true
+    },
+    {
+      "check": "source_mean features independent of evaluation outcomes",
+      "passed": true
+    },
+    {
+      "check": "source_mean input column whitelist",
+      "passed": true
+    },
+    {
+      "check": "source_mean fallback uses training HER only",
+      "passed": true
+    },
+    {
+      "check": "batch_mean features independent of evaluation outcomes",
+      "passed": true
+    },
+    {
+      "check": "batch_mean input column whitelist",
+      "passed": true
+    },
+    {
+      "check": "batch_mean fallback uses training HER only",
+      "passed": true
+    },
+    {
+      "check": "M0B features independent of evaluation outcomes",
+      "passed": true
+    },
+    {
+      "check": "M0B input column whitelist",
+      "passed": true
+    },
+    {
+      "check": "M1B features independent of evaluation outcomes",
+      "passed": true
+    },
+    {
+      "check": "M1B input column whitelist",
+      "passed": true
+    },
+    {
+      "check": "M0 reported MAE independently recomputed",
+      "passed": true
+    },
+    {
+      "check": "M1 reported MAE independently recomputed",
+      "passed": true
+    },
+    {
+      "check": "retained test has 10 families and 14 prep groups",
+      "passed": true
+    }
+  ],
+  "human_review_completed": false,
+  "sealed_outcomes_read": false
+}

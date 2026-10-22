@@ -1,0 +1,88 @@
+{
+  "raw_rows": 5412,
+  "numeric_rows": 2652,
+  "raw_pairs": 442,
+  "excluded": 1,
+  "usable": {
+    "electrodes": 441,
+    "prep_groups": 230,
+    "element_groups": 48,
+    "replicated_groups": 116
+  },
+  "official_clean": {
+    "electrodes": 433,
+    "prep_groups": 226,
+    "element_groups": 46,
+    "replicated_groups": 114
+  },
+  "xrf": {
+    "electrodes": 433,
+    "prep_groups": 225,
+    "element_groups": 47,
+    "replicated_groups": 114
+  },
+  "xrd": {
+    "electrodes": 419,
+    "prep_groups": 227,
+    "element_groups": 48,
+    "replicated_groups": 105
+  },
+  "extended": {
+    "electrodes": 291,
+    "prep_groups": 159,
+    "element_groups": 44,
+    "replicated_groups": 75
+  },
+  "development": {
+    "electrodes": 404,
+    "prep_groups": 216,
+    "element_groups": 38,
+    "replicated_groups": 104
+  },
+  "holdout": {
+    "electrodes": 37,
+    "prep_groups": 14,
+    "element_groups": 10,
+    "replicated_groups": 12
+  },
+  "sources": {
+    "uoft": 250,
+    "vsp": 191
+  },
+  "batches": 19,
+  "batch_date_conflict_electrodes": 216,
+  "batch_metadata_missing_electrodes": 0,
+  "xrf_official_disagreements": 3,
+  "ambiguous_mapping_count": 6,
+  "elements": [
+    "Ag",
+    "Au",
+    "Cd",
+    "Cu",
+    "Ga",
+    "Hg",
+    "In",
+    "Ni",
+    "Pd",
+    "Rh",
+    "Sn",
+    "Tl",
+    "Zn"
+  ],
+  "holdout_element_groups": [
+    "Au-Cd-Cu",
+    "Au-Cd-Ga",
+    "Au-Cd-Pd",
+    "Au-Hg-Pd",
+    "Au-Tl",
+    "Cd-Pd",
+    "Cu-Rh",
+    "Hg-Pd",
+    "Rh",
+    "Zn"
+  ],
+  "seed": 20261012,
+  "quality_scope": "global data-quality counts only, no held-out outcome summaries inspected",
+  "gas_FE_gt100_rows_all_currents": 47,
+  "liquid_residual_lt0_rows_all_currents": 25
+}

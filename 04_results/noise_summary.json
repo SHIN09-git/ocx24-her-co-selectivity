@@ -1,0 +1,9 @@
+{
+  "development_replicated_groups": 104,
+  "median_CO_SD_pp": 2.7603356644403285,
+  "mean_CO_SD_pp": 5.410084088084679,
+  "median_pairwise_CO_difference_pp": 3.3153241646758373,
+  "mean_within_group_LOO_reference_MAE_pp": 6.350333421577459,
+  "median_HER_SD_V": 0.04482337078273213,
+  "interpretation": "Repeat dispersion at fixed preparation ID; not a formal irreducible-error lower bound and not all independent synthesis variability"
+}

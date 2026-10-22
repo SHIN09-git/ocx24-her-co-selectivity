@@ -1,0 +1,12 @@
+{
+  "bootstrap_iterations": 2000,
+  "candidate_groups": 216,
+  "groups_with_repeats": 104,
+  "top_k": 44,
+  "jaccard_mean": {
+    "y": 0.9094565550500187,
+    "M0": 1.0,
+    "M1": 0.9711594202898551
+  },
+  "interpretation": "Conditional stability using observed repeat electrodes only; singleton uncertainty and model-training variation are not estimated"
+}

@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-12",
+  "gate_1": {
+    "automated_data_feasibility": "pass",
+    "usable_preparation_ids": 230,
+    "nominal_element_sets": 48,
+    "replicated_preparation_ids": 116,
+    "mapping_policy": "Retain nominal data; exclude ambiguous XRF mappings in XRF budget; do not treat conflicting batch dates as chronology",
+    "novelty": "No exact same validated HER-to-CO question identified in bounded original-paper, code and web review; not exhaustive proof",
+    "human_key_record_review": "not claimed; replaced by explicit user authorization for AI review",
+    "authorized_AI_review": "completed: 20 designated records, all 441 pairs, all 6 mapping anomalies and 216 batch-date discrepancies"
+  },
+  "gate_2": {
+    "decision": "stop_positive_materials_screening_route",
+    "primary_development_gain_pp": -0.04283556275016842,
+    "primary_gain_cluster_CI95": [
+      -1.789419602509148,
+      1.439901069589089
+    ],
+    "practical_target": "MAE reduction >=3 pp and >=10 percent, stable across groups and controls",
+    "reason": "Nominal and XRF comparisons do not show a stable useful CO-selectivity gain. Within-preparation pairing test is inconclusive. No support for a new material-state mechanism.",
+    "scope": "Decision applies to current data, prediction time, features and limited model classes; it does not establish universally zero information in HER",
+    "continue_only": "Prespecified final sealed evaluation, reproducibility checks, figures and negative/applicability report",
+    "not_activated": [
+      "M2/M3 extended descriptors",
+      "five-current secondary model expansion",
+      "new wet experiments",
+      "ethanol or ammonia second-stage projects"
+    ]
+  },
+  "review_level": "Completed under explicit user-authorized AI review; no independent human sign-off or publication"
+}

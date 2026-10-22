@@ -1,0 +1,62 @@
+{
+  "checked_utc": "2026-10-22T04:38:39.474801+00:00",
+  "scope": "Fresh retrieval of the eight pinned upstream files; bytes matched the bundled copies.",
+  "files": [
+    {
+      "path": "01_sources/ocx/core/data_handling.py",
+      "url": "https://raw.githubusercontent.com/facebookresearch/fairchem/0a625a8924cf0a87dffbcd2f0ac58d82ca43bfa4/src/fairchem/applications/ocx/core/data_handling.py",
+      "sha256": "ceb1c43698091e3eb5bbbf170433acf25f41428204bb39b9ed1aed7738bda020",
+      "bytes": 25394,
+      "status": "matched_upstream"
+    },
+    {
+      "path": "01_sources/ocx/data/experimental_data/ExpDataDump_241113.csv",
+      "url": "https://raw.githubusercontent.com/facebookresearch/fairchem/0a625a8924cf0a87dffbcd2f0ac58d82ca43bfa4/src/fairchem/applications/ocx/data/experimental_data/ExpDataDump_241113.csv",
+      "sha256": "be928b87325d7c3efdd3bebb2e05c026a4762bc610e3715a0380e81399b672f2",
+      "bytes": 957797,
+      "status": "matched_upstream"
+    },
+    {
+      "path": "01_sources/ocx/data/experimental_data/ExpDataDump_241113_clean.csv",
+      "url": "https://raw.githubusercontent.com/facebookresearch/fairchem/0a625a8924cf0a87dffbcd2f0ac58d82ca43bfa4/src/fairchem/applications/ocx/data/experimental_data/ExpDataDump_241113_clean.csv",
+      "sha256": "e55446ee81b26c0ceaa6e9d532186954124ff11a51f854ca13511c7c8b31de99",
+      "bytes": 526042,
+      "status": "matched_upstream"
+    },
+    {
+      "path": "01_sources/ocx/data/experimental_data/XRDDataDump-241113.csv",
+      "url": "https://raw.githubusercontent.com/facebookresearch/fairchem/0a625a8924cf0a87dffbcd2f0ac58d82ca43bfa4/src/fairchem/applications/ocx/data/experimental_data/XRDDataDump-241113.csv",
+      "sha256": "4082775b535bb4269f5ebc0e6da78a39c67ab64e93fddf2aa3e4565740c49c68",
+      "bytes": 575235,
+      "status": "matched_upstream"
+    },
+    {
+      "path": "01_sources/ocx/data/experimental_data/XRFDataDump-241113.csv",
+      "url": "https://raw.githubusercontent.com/facebookresearch/fairchem/0a625a8924cf0a87dffbcd2f0ac58d82ca43bfa4/src/fairchem/applications/ocx/data/experimental_data/XRFDataDump-241113.csv",
+      "sha256": "25e9e76cf567e3594a6e4d88715a741464bcd8f7f7ae76fb55e8eafaf590ebd2",
+      "bytes": 261739,
+      "status": "matched_upstream"
+    },
+    {
+      "path": "01_sources/ocx/data/experimental_data/supporting_data/batches_info.csv",
+      "url": "https://raw.githubusercontent.com/facebookresearch/fairchem/0a625a8924cf0a87dffbcd2f0ac58d82ca43bfa4/src/fairchem/applications/ocx/data/experimental_data/supporting_data/batches_info.csv",
+      "sha256": "eb34201db186f210ad2aa183912c2fab82c5cba08a25eeb127c319c7c8963732",
+      "bytes": 1431,
+      "status": "matched_upstream"
+    },
+    {
+      "path": "01_sources/ocx/data/processed_data/CO2R_40_70_all.csv",
+      "url": "https://raw.githubusercontent.com/facebookresearch/fairchem/0a625a8924cf0a87dffbcd2f0ac58d82ca43bfa4/src/fairchem/applications/ocx/data/processed_data/CO2R_40_70_all.csv",
+      "sha256": "ec8c47e71f9d73898ea31e35bee91d6af8de7a98fa455e1b296714e19307967b",
+      "bytes": 136420,
+      "status": "matched_upstream"
+    },
+    {
+      "path": "01_sources/LICENSE.md",
+      "url": "https://raw.githubusercontent.com/facebookresearch/fairchem/0a625a8924cf0a87dffbcd2f0ac58d82ca43bfa4/LICENSE.md",
+      "sha256": "3e10827938aae9e591647722c830065a95b3af2721f0d7f02f373869b40fe81d",
+      "bytes": 1093,
+      "status": "matched_upstream"
+    }
+  ]
+}

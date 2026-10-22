@@ -1,0 +1,156 @@
+[
+  {
+    "electrodes": 37,
+    "prep_groups": 14,
+    "element_groups": 10,
+    "M0_MAE": 11.263224258341156,
+    "M1_MAE": 12.328057572689508,
+    "gain_pp_or_V": -1.064833314348352,
+    "relative_gain_pct": -9.454071853002244,
+    "gain_CI95_low": -3.161329953833531,
+    "gain_CI95_high": 0.2818266611596693,
+    "bootstrap_positive_fraction_descriptive": 0.0876,
+    "budget": "nominal",
+    "algorithm": "random_forest",
+    "target": "co_fe_pct",
+    "screening": {
+      "M0": {
+        "candidate_groups": 14,
+        "top_k": 3,
+        "hits": 1,
+        "recall": 0.3333333333333333,
+        "enrichment": 1.5555555555555556
+      },
+      "M1": {
+        "candidate_groups": 14,
+        "top_k": 3,
+        "hits": 0,
+        "recall": 0.0,
+        "enrichment": 0.0
+      }
+    }
+  },
+  {
+    "electrodes": 37,
+    "prep_groups": 14,
+    "element_groups": 10,
+    "M0_MAE": 9.137743380141359,
+    "M1_MAE": 10.327896289029214,
+    "gain_pp_or_V": -1.190152908887855,
+    "relative_gain_pct": -13.024582321652412,
+    "gain_CI95_low": -3.3909379876662933,
+    "gain_CI95_high": 0.16095194843135452,
+    "bootstrap_positive_fraction_descriptive": 0.0468,
+    "budget": "nominal",
+    "algorithm": "ridge",
+    "target": "co_fe_pct",
+    "screening": {
+      "M0": {
+        "candidate_groups": 14,
+        "top_k": 3,
+        "hits": 2,
+        "recall": 0.6666666666666666,
+        "enrichment": 3.111111111111111
+      },
+      "M1": {
+        "candidate_groups": 14,
+        "top_k": 3,
+        "hits": 1,
+        "recall": 0.3333333333333333,
+        "enrichment": 1.5555555555555556
+      }
+    }
+  },
+  {
+    "electrodes": 37,
+    "prep_groups": 14,
+    "element_groups": 10,
+    "M0_MAE": 11.787090672272969,
+    "M1_MAE": 11.662561198448032,
+    "gain_pp_or_V": 0.1245294738249374,
+    "relative_gain_pct": 1.0564903358033106,
+    "gain_CI95_low": -0.995874864860998,
+    "gain_CI95_high": 0.899769119085234,
+    "bootstrap_positive_fraction_descriptive": 0.6231,
+    "budget": "xrf",
+    "algorithm": "random_forest",
+    "target": "co_fe_pct",
+    "screening": {
+      "M0": {
+        "candidate_groups": 14,
+        "top_k": 3,
+        "hits": 1,
+        "recall": 0.3333333333333333,
+        "enrichment": 1.5555555555555556
+      },
+      "M1": {
+        "candidate_groups": 14,
+        "top_k": 3,
+        "hits": 0,
+        "recall": 0.0,
+        "enrichment": 0.0
+      }
+    }
+  },
+  {
+    "electrodes": 37,
+    "prep_groups": 14,
+    "element_groups": 10,
+    "M0_MAE": 11.150719683534502,
+    "M1_MAE": 11.2403866091412,
+    "gain_pp_or_V": -0.0896669256066982,
+    "relative_gain_pct": -0.8041357701700919,
+    "gain_CI95_low": -0.6471138661179356,
+    "gain_CI95_high": 0.2527757094959302,
+    "bootstrap_positive_fraction_descriptive": 0.3822,
+    "budget": "xrf",
+    "algorithm": "ridge",
+    "target": "co_fe_pct",
+    "screening": {
+      "M0": {
+        "candidate_groups": 14,
+        "top_k": 3,
+        "hits": 2,
+        "recall": 0.6666666666666666,
+        "enrichment": 3.111111111111111
+      },
+      "M1": {
+        "candidate_groups": 14,
+        "top_k": 3,
+        "hits": 2,
+        "recall": 0.6666666666666666,
+        "enrichment": 3.111111111111111
+      }
+    }
+  },
+  {
+    "electrodes": 37,
+    "prep_groups": 14,
+    "element_groups": 10,
+    "M0_MAE": 16.108473734029324,
+    "M1_MAE": 16.677162903402365,
+    "gain_pp_or_V": -0.5686891693730409,
+    "relative_gain_pct": -3.530372763818579,
+    "gain_CI95_low": -2.454890272246971,
+    "gain_CI95_high": 1.4412116295546564,
+    "bootstrap_positive_fraction_descriptive": 0.2863,
+    "budget": "nominal",
+    "algorithm": "random_forest",
+    "target": "h2_fe_pct"
+  },
+  {
+    "electrodes": 37,
+    "prep_groups": 14,
+    "element_groups": 10,
+    "M0_MAE": 0.06775789153940155,
+    "M1_MAE": 0.06252542786068935,
+    "gain_pp_or_V": 0.005232463678712204,
+    "relative_gain_pct": 7.722294126684123,
+    "gain_CI95_low": -0.0118868283917006,
+    "gain_CI95_high": 0.018049724334436457,
+    "bootstrap_positive_fraction_descriptive": 0.764,
+    "budget": "nominal",
+    "algorithm": "random_forest",
+    "target": "co2_voltage_V"
+  }
+]

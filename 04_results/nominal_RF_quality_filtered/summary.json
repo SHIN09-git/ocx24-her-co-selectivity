@@ -1,0 +1,28 @@
+{
+  "electrodes": 399,
+  "prep_groups": 214,
+  "element_groups": 38,
+  "M0_MAE": 13.627029611338006,
+  "M1_MAE": 13.613691730099116,
+  "gain_pp_or_V": 0.013337881238889793,
+  "relative_gain_pct": 0.09787812618967501,
+  "gain_CI95_low": -1.612440417489266,
+  "gain_CI95_high": 1.423453847790912,
+  "bootstrap_positive_fraction_descriptive": 0.5155,
+  "screening": {
+    "M0": {
+      "candidate_groups": 214,
+      "top_k": 43,
+      "hits": 24,
+      "recall": 0.5581395348837209,
+      "enrichment": 2.7777176852352623
+    },
+    "M1": {
+      "candidate_groups": 214,
+      "top_k": 43,
+      "hits": 22,
+      "recall": 0.5116279069767442,
+      "enrichment": 2.546241211465657
+    }
+  }
+}

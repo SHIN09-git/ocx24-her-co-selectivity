@@ -1,0 +1,13 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf
+*.cff text eol=lf
+00_admin/** -text
+01_sources/** -text
+02_data/** -text
+03_analysis/** -text
+04_results/** -text
+*.png binary
+

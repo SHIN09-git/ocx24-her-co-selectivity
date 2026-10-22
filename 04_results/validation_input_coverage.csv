@@ -1,0 +1,88 @@
+task,fold,training_electrodes,validation_electrodes,training_prep_groups,validation_prep_groups,training_element_sets,validation_element_sets,shared_element_sets,training_elements,validation_elements,unseen_nominal_elements,unseen_element_count,affected_electrodes,affected_prep_groups,unseen_sources,unseen_batch_count,training_HER_min_V,training_HER_max_V,validation_HER_outside_training_range
+nominal_random_forest_batch_id_co_fe_pct,0,334,70,179,37,28,14,4,Ag Au Cd Cu Ga Hg In Pd Rh Sn Tl Zn,Ag Au Cd Cu Ga Hg In Ni Pd Tl Zn,Ni,1,2,1,,4,2.224496306,3.2833115371900825,0
+nominal_random_forest_batch_id_co_fe_pct,1,350,54,182,34,35,9,6,Ag Au Cd Cu Ga Hg In Ni Pd Sn Tl Zn,Ag Au Cu In Pd Rh Zn,Rh,1,3,1,,4,2.224496306,3.174833512,5
+nominal_random_forest_batch_id_co_fe_pct,2,250,154,154,62,31,15,8,Ag Au Cd Cu Ga Hg In Ni Pd Rh Tl Zn,Ag Au Cu Hg Pd Sn Tl Zn,Sn,1,14,6,,4,2.3645679752066115,3.2833115371900825,10
+nominal_random_forest_batch_id_co_fe_pct,3,321,83,163,53,34,11,7,Ag Au Cd Cu Ga Hg In Ni Pd Rh Sn Tl Zn,Ag Au Cd Cu Hg Pd Tl Zn,,0,0,0,,4,2.224496306,3.2833115371900825,0
+nominal_random_forest_batch_id_co_fe_pct,4,361,43,186,30,35,4,1,Ag Au Cd Cu Ga Hg In Ni Pd Rh Sn Tl Zn,Ag Au Ga In Pd Zn,,0,0,0,,3,2.224496306,3.2833115371900825,0
+nominal_random_forest_element_group_co2_voltage_V,0,299,105,155,61,30,8,0,Ag Au Cd Cu Ga Hg In Ni Pd Rh Sn Tl Zn,Ag Au Cd Cu Hg Pd Zn,,0,0,0,,1,2.224496306,3.2833115371900825,0
+nominal_random_forest_element_group_co2_voltage_V,1,305,99,152,64,30,8,0,Ag Au Cd Cu Ga Hg In Ni Pd Sn Tl Zn,Ag Au Cd Ga Pd Rh Tl Zn,Rh,1,3,1,,3,2.224496306,3.174833512,5
+nominal_random_forest_element_group_co2_voltage_V,2,323,81,180,36,30,8,0,Ag Au Cd Cu Ga Hg In Pd Rh Sn Tl Zn,Ag Au Cd Cu Ga In Ni Pd Tl,Ni,1,2,1,,3,2.322217207,3.2833115371900825,5
+nominal_random_forest_element_group_co2_voltage_V,3,311,93,172,44,31,7,0,Ag Au Cd Cu Ga Hg In Ni Pd Rh Tl Zn,Ag Au Cu Pd Sn Tl Zn,Sn,1,14,6,,3,2.224496306,3.2833115371900825,0
+nominal_random_forest_element_group_co2_voltage_V,4,378,26,205,11,31,7,0,Ag Au Cd Cu Ga Hg In Ni Pd Rh Sn Tl Zn,Ag Au Cd Cu Ga Hg In Pd Tl,,0,0,0,,0,2.224496306,3.2833115371900825,0
+nominal_random_forest_element_group_co_fe_pct,0,299,105,155,61,30,8,0,Ag Au Cd Cu Ga Hg In Ni Pd Rh Sn Tl Zn,Ag Au Cd Cu Hg Pd Zn,,0,0,0,,1,2.224496306,3.2833115371900825,0
+nominal_random_forest_element_group_co_fe_pct,1,305,99,152,64,30,8,0,Ag Au Cd Cu Ga Hg In Ni Pd Sn Tl Zn,Ag Au Cd Ga Pd Rh Tl Zn,Rh,1,3,1,,3,2.224496306,3.174833512,5
+nominal_random_forest_element_group_co_fe_pct,2,323,81,180,36,30,8,0,Ag Au Cd Cu Ga Hg In Pd Rh Sn Tl Zn,Ag Au Cd Cu Ga In Ni Pd Tl,Ni,1,2,1,,3,2.322217207,3.2833115371900825,5
+nominal_random_forest_element_group_co_fe_pct,3,311,93,172,44,31,7,0,Ag Au Cd Cu Ga Hg In Ni Pd Rh Tl Zn,Ag Au Cu Pd Sn Tl Zn,Sn,1,14,6,,3,2.224496306,3.2833115371900825,0
+nominal_random_forest_element_group_co_fe_pct,4,378,26,205,11,31,7,0,Ag Au Cd Cu Ga Hg In Ni Pd Rh Sn Tl Zn,Ag Au Cd Cu Ga Hg In Pd Tl,,0,0,0,,0,2.224496306,3.2833115371900825,0
+nominal_random_forest_element_group_h2_fe_pct,0,299,105,155,61,30,8,0,Ag Au Cd Cu Ga Hg In Ni Pd Rh Sn Tl Zn,Ag Au Cd Cu Hg Pd Zn,,0,0,0,,1,2.224496306,3.2833115371900825,0
+nominal_random_forest_element_group_h2_fe_pct,1,305,99,152,64,30,8,0,Ag Au Cd Cu Ga Hg In Ni Pd Sn Tl Zn,Ag Au Cd Ga Pd Rh Tl Zn,Rh,1,3,1,,3,2.224496306,3.174833512,5
+nominal_random_forest_element_group_h2_fe_pct,2,323,81,180,36,30,8,0,Ag Au Cd Cu Ga Hg In Pd Rh Sn Tl Zn,Ag Au Cd Cu Ga In Ni Pd Tl,Ni,1,2,1,,3,2.322217207,3.2833115371900825,5
+nominal_random_forest_element_group_h2_fe_pct,3,311,93,172,44,31,7,0,Ag Au Cd Cu Ga Hg In Ni Pd Rh Tl Zn,Ag Au Cu Pd Sn Tl Zn,Sn,1,14,6,,3,2.224496306,3.2833115371900825,0
+nominal_random_forest_element_group_h2_fe_pct,4,378,26,205,11,31,7,0,Ag Au Cd Cu Ga Hg In Ni Pd Rh Sn Tl Zn,Ag Au Cd Cu Ga Hg In Pd Tl,,0,0,0,,0,2.224496306,3.2833115371900825,0
+nominal_random_forest_prep_group_co_fe_pct,0,317,87,172,44,34,24,20,Ag Au Cd Cu Ga Hg In Ni Pd Sn Tl Zn,Ag Au Cd Cu Ga In Pd Rh Sn Tl Zn,Rh,1,3,1,,0,2.224496306,3.2833115371900825,0
+nominal_random_forest_prep_group_co_fe_pct,1,330,74,173,43,38,17,17,Ag Au Cd Cu Ga Hg In Ni Pd Rh Sn Tl Zn,Ag Au Cd Cu Ga In Pd Sn Zn,,0,0,0,,0,2.24029662,3.2833115371900825,1
+nominal_random_forest_prep_group_co_fe_pct,2,323,81,173,43,36,19,17,Ag Au Cd Cu Ga Hg In Ni Pd Rh Sn Tl Zn,Ag Au Cd Cu Ga Hg In Pd Sn Zn,,0,0,0,,0,2.224496306,3.2588824628099173,1
+nominal_random_forest_prep_group_co_fe_pct,3,323,81,173,43,34,23,19,Ag Au Cd Cu Ga Hg In Pd Rh Sn Tl Zn,Ag Au Cd Cu Ga Hg In Ni Pd Tl Zn,Ni,1,2,1,,0,2.224496306,3.2833115371900825,0
+nominal_random_forest_prep_group_co_fe_pct,4,323,81,173,43,35,19,16,Ag Au Cd Cu Ga Hg In Ni Pd Rh Sn Tl Zn,Ag Au Cd Cu Ga Hg In Pd Sn Tl Zn,,0,0,0,,1,2.224496306,3.2833115371900825,0
+nominal_random_forest_source_co_fe_pct,0,190,214,136,80,16,27,5,Ag Au Cu Ga In Pd Sn Zn,Ag Au Cd Cu Ga Hg In Ni Pd Rh Tl,Cd Hg Ni Rh Tl,5,72,28,uoft,6,2.389970099173554,3.2833115371900825,15
+nominal_random_forest_source_co_fe_pct,1,214,190,80,136,27,16,5,Ag Au Cd Cu Ga Hg In Ni Pd Rh Tl,Ag Au Cu Ga In Pd Sn Zn,Sn Zn,2,106,78,vsp,13,2.224496306,3.174833512,5
+nominal_RF_batch_and_mean_controls,0,299,105,155,61,30,8,0,Ag Au Cd Cu Ga Hg In Ni Pd Rh Sn Tl Zn,Ag Au Cd Cu Hg Pd Zn,,0,0,0,,1,2.224496306,3.2833115371900825,0
+nominal_RF_batch_and_mean_controls,1,305,99,152,64,30,8,0,Ag Au Cd Cu Ga Hg In Ni Pd Sn Tl Zn,Ag Au Cd Ga Pd Rh Tl Zn,Rh,1,3,1,,3,2.224496306,3.174833512,5
+nominal_RF_batch_and_mean_controls,2,323,81,180,36,30,8,0,Ag Au Cd Cu Ga Hg In Pd Rh Sn Tl Zn,Ag Au Cd Cu Ga In Ni Pd Tl,Ni,1,2,1,,3,2.322217207,3.2833115371900825,5
+nominal_RF_batch_and_mean_controls,3,311,93,172,44,31,7,0,Ag Au Cd Cu Ga Hg In Ni Pd Rh Tl Zn,Ag Au Cu Pd Sn Tl Zn,Sn,1,14,6,,3,2.224496306,3.2833115371900825,0
+nominal_RF_batch_and_mean_controls,4,378,26,205,11,31,7,0,Ag Au Cd Cu Ga Hg In Ni Pd Rh Sn Tl Zn,Ag Au Cd Cu Ga Hg In Pd Tl,,0,0,0,,0,2.224496306,3.2833115371900825,0
+nominal_RF_official_clean,0,306,90,150,62,28,8,0,Ag Au Cd Cu Ga Hg In Ni Pd Sn Tl Zn,Ag Au Cd Cu In Pd Zn,,0,0,0,,3,2.224496306,3.174833512,5
+nominal_RF_official_clean,1,286,110,152,60,29,7,0,Ag Au Cd Cu Ga Hg In Ni Pd Sn Tl Zn,Ag Au Cd Cu Ga Pd Tl Zn,,0,0,0,,2,2.224496306,3.2833115371900825,0
+nominal_RF_official_clean,2,309,87,172,40,29,7,0,Ag Au Cd Cu Ga Hg In Pd Sn Tl Zn,Ag Au Cd Cu Ga In Ni Pd,Ni,1,2,1,,2,2.224496306,3.2833115371900825,0
+nominal_RF_official_clean,3,312,84,172,40,29,7,0,Ag Au Cd Cu Ga Hg In Ni Pd Tl Zn,Ag Au Cu Pd Sn Tl Zn,Sn,1,14,6,,1,2.322217207,3.2833115371900825,5
+nominal_RF_official_clean,4,371,25,202,10,29,7,0,Ag Au Cd Cu Ga In Ni Pd Sn Tl Zn,Ag Au Cd Cu Ga Hg In Pd Tl,Hg,1,5,2,,0,2.224496306,3.2833115371900825,0
+nominal_RF_quality_filtered,0,296,103,154,60,30,8,0,Ag Au Cd Cu Ga Hg In Ni Pd Rh Sn Tl Zn,Ag Au Cd Cu Hg Pd Zn,,0,0,0,,1,2.224496306,3.2833115371900825,0
+nominal_RF_quality_filtered,1,302,97,151,63,30,8,0,Ag Au Cd Cu Ga Hg In Ni Pd Sn Tl Zn,Ag Au Cd Ga Pd Rh Tl Zn,Rh,1,3,1,,3,2.224496306,3.174833512,5
+nominal_RF_quality_filtered,2,318,81,178,36,30,8,0,Ag Au Cd Cu Ga Hg In Pd Rh Sn Tl Zn,Ag Au Cd Cu Ga In Ni Pd Tl,Ni,1,2,1,,3,2.322217207,3.2833115371900825,5
+nominal_RF_quality_filtered,3,307,92,170,44,31,7,0,Ag Au Cd Cu Ga Hg In Ni Pd Rh Tl Zn,Ag Au Cu Pd Sn Tl Zn,Sn,1,14,6,,3,2.224496306,3.2833115371900825,0
+nominal_RF_quality_filtered,4,373,26,203,11,31,7,0,Ag Au Cd Cu Ga Hg In Ni Pd Rh Sn Tl Zn,Ag Au Cd Cu Ga Hg In Pd Tl,,0,0,0,,0,2.224496306,3.2833115371900825,0
+nominal_RF_within_source_uoft,0,152,62,58,22,21,6,0,Ag Au Cd Cu Ga Hg In Ni Pd Rh Tl,Ag Au Cd Pd Tl,,0,0,0,,0,2.322217207,3.174833512,5
+nominal_RF_within_source_uoft,1,195,19,71,9,21,6,0,Ag Au Cd Cu Ga Hg In Pd Rh Tl,Ag Au Cd Cu Hg Ni Pd Tl,Ni,1,2,1,,0,2.224496306,3.174833512,0
+nominal_RF_within_source_uoft,2,200,14,75,5,22,5,0,Ag Au Cd Cu Hg In Ni Pd Rh Tl,Ag Au Cd Ga Hg In Tl,Ga,1,3,1,,0,2.224496306,3.174833512,0
+nominal_RF_within_source_uoft,3,135,79,51,29,22,5,0,Ag Au Cd Cu Ga Hg In Ni Pd Rh Tl,Au Cd Cu In Pd Tl,,0,0,0,,0,2.224496306,3.120300587,1
+nominal_RF_within_source_uoft,4,174,40,65,15,22,5,0,Ag Au Cd Cu Ga Hg In Ni Pd Tl,Au Cu Hg Pd Rh Tl,Rh,1,3,1,,0,2.224496306,3.174833512,0
+nominal_RF_within_source_vsp,0,153,37,105,31,12,4,0,Ag Au Cu Ga In Pd Sn Zn,Ag Au Cu Zn,,0,0,0,,2,2.389970099173554,3.1637627272727267,6
+nominal_RF_within_source_vsp,1,145,45,105,31,13,3,0,Ag Au Cu In Pd Sn Zn,Ag Au Ga Zn,Ga,1,27,15,,2,2.389970099173554,3.2833115371900825,0
+nominal_RF_within_source_vsp,2,149,41,103,33,13,3,0,Ag Au Cu Ga In Pd Sn Zn,Ag Au Cu Pd Zn,,0,0,0,,1,2.466797,3.2833115371900825,2
+nominal_RF_within_source_vsp,3,147,43,108,28,13,3,0,Ag Au Cu Ga In Pd Sn Zn,Ag Au In Pd Zn,,0,0,0,,2,2.389970099173554,3.2833115371900825,0
+nominal_RF_within_source_vsp,4,166,24,123,13,13,3,0,Ag Au Cu Ga In Pd Zn,Au In Pd Sn,Sn,1,14,6,,2,2.389970099173554,3.2833115371900825,0
+nominal_RF_without_largest_family,0,315,45,164,26,29,8,0,Ag Au Cd Cu Ga Hg In Ni Pd Rh Sn Tl Zn,Ag Au Cd Cu Ga Hg Pd Tl,,0,0,0,,1,2.224496306,3.2833115371900825,0
+nominal_RF_without_largest_family,1,264,96,126,64,29,8,0,Ag Au Cd Cu Ga Hg In Ni Pd Sn Tl Zn,Ag Au Cd Ga In Pd Rh Zn,Rh,1,3,1,,3,2.224496306,3.174833512,5
+nominal_RF_without_largest_family,2,299,61,161,29,30,7,0,Ag Au Cd Cu Ga Hg In Ni Pd Rh Sn Tl Zn,Ag Au Cd Cu Ga In Pd Tl,,0,0,0,,2,2.224496306,3.2833115371900825,0
+nominal_RF_without_largest_family,3,239,121,138,52,30,7,0,Ag Au Cd Cu Ga Hg In Ni Pd Rh Tl Zn,Ag Au Cu Pd Sn Tl Zn,Sn,1,14,6,,1,2.3698278595041327,3.2833115371900825,12
+nominal_RF_without_largest_family,4,323,37,171,19,30,7,0,Ag Au Cd Cu Ga Hg In Pd Rh Sn Tl Zn,Ag Au Cd Cu Hg In Ni Pd Tl Zn,Ni,1,2,1,,1,2.224496306,3.2833115371900825,0
+nominal_ridge_element_group_co_fe_pct,0,299,105,155,61,30,8,0,Ag Au Cd Cu Ga Hg In Ni Pd Rh Sn Tl Zn,Ag Au Cd Cu Hg Pd Zn,,0,0,0,,1,2.224496306,3.2833115371900825,0
+nominal_ridge_element_group_co_fe_pct,1,305,99,152,64,30,8,0,Ag Au Cd Cu Ga Hg In Ni Pd Sn Tl Zn,Ag Au Cd Ga Pd Rh Tl Zn,Rh,1,3,1,,3,2.224496306,3.174833512,5
+nominal_ridge_element_group_co_fe_pct,2,323,81,180,36,30,8,0,Ag Au Cd Cu Ga Hg In Pd Rh Sn Tl Zn,Ag Au Cd Cu Ga In Ni Pd Tl,Ni,1,2,1,,3,2.322217207,3.2833115371900825,5
+nominal_ridge_element_group_co_fe_pct,3,311,93,172,44,31,7,0,Ag Au Cd Cu Ga Hg In Ni Pd Rh Tl Zn,Ag Au Cu Pd Sn Tl Zn,Sn,1,14,6,,3,2.224496306,3.2833115371900825,0
+nominal_ridge_element_group_co_fe_pct,4,378,26,205,11,31,7,0,Ag Au Cd Cu Ga Hg In Ni Pd Rh Sn Tl Zn,Ag Au Cd Cu Ga Hg In Pd Tl,,0,0,0,,0,2.224496306,3.2833115371900825,0
+nominal_ridge_prep_group_co_fe_pct,0,317,87,172,44,34,24,20,Ag Au Cd Cu Ga Hg In Ni Pd Sn Tl Zn,Ag Au Cd Cu Ga In Pd Rh Sn Tl Zn,Rh,1,3,1,,0,2.224496306,3.2833115371900825,0
+nominal_ridge_prep_group_co_fe_pct,1,330,74,173,43,38,17,17,Ag Au Cd Cu Ga Hg In Ni Pd Rh Sn Tl Zn,Ag Au Cd Cu Ga In Pd Sn Zn,,0,0,0,,0,2.24029662,3.2833115371900825,1
+nominal_ridge_prep_group_co_fe_pct,2,323,81,173,43,36,19,17,Ag Au Cd Cu Ga Hg In Ni Pd Rh Sn Tl Zn,Ag Au Cd Cu Ga Hg In Pd Sn Zn,,0,0,0,,0,2.224496306,3.2588824628099173,1
+nominal_ridge_prep_group_co_fe_pct,3,323,81,173,43,34,23,19,Ag Au Cd Cu Ga Hg In Pd Rh Sn Tl Zn,Ag Au Cd Cu Ga Hg In Ni Pd Tl Zn,Ni,1,2,1,,0,2.224496306,3.2833115371900825,0
+nominal_ridge_prep_group_co_fe_pct,4,323,81,173,43,35,19,16,Ag Au Cd Cu Ga Hg In Ni Pd Rh Sn Tl Zn,Ag Au Cd Cu Ga Hg In Pd Sn Tl Zn,,0,0,0,,1,2.224496306,3.2833115371900825,0
+xrf_random_forest_element_group_co_fe_pct,0,292,104,152,59,29,8,0,Ag Au Cd Cu Ga Hg In Ni Pd Rh Sn Tl Zn,Ag Au Cd Cu Pd Zn,,0,0,0,,1,2.224496306,3.2833115371900825,0
+xrf_random_forest_element_group_co_fe_pct,1,297,99,147,64,29,8,0,Ag Au Cd Cu Ga Hg In Ni Pd Sn Tl Zn,Ag Au Cd Ga Pd Rh Tl Zn,Rh,1,3,1,,3,2.224496306,3.174833512,5
+xrf_random_forest_element_group_co_fe_pct,2,349,47,185,26,30,7,0,Ag Au Cd Cu Ga Hg In Pd Rh Sn Tl Zn,Ag Au Cd Ga In Ni Pd Tl,Ni,1,2,1,,3,2.224496306,3.2833115371900825,0
+xrf_random_forest_element_group_co_fe_pct,3,275,121,159,52,30,7,0,Ag Au Cd Cu Ga Hg In Ni Pd Rh Tl Zn,Ag Au Cu Pd Sn Tl Zn,Sn,1,14,6,,1,2.3698278595041327,3.2833115371900825,12
+xrf_random_forest_element_group_co_fe_pct,4,371,25,201,10,30,7,0,Ag Au Cd Cu Ga In Ni Pd Rh Sn Tl Zn,Ag Au Cd Cu Ga Hg In Pd Tl,Hg,1,5,2,,0,2.224496306,3.2833115371900825,0
+xrf_random_forest_prep_group_co_fe_pct,0,312,84,168,43,34,23,20,Ag Au Cd Cu Ga Hg In Ni Pd Sn Tl Zn,Ag Au Cd Cu Ga In Pd Rh Sn Zn,Rh,1,3,1,,0,2.224496306,3.2833115371900825,0
+xrf_random_forest_prep_group_co_fe_pct,1,320,76,169,42,37,14,14,Ag Au Cd Cu Ga Hg In Ni Pd Rh Sn Tl Zn,Ag Au Cu Ga In Pd Sn Zn,,0,0,0,,0,2.24029662,3.2833115371900825,1
+xrf_random_forest_prep_group_co_fe_pct,2,322,74,169,42,36,22,21,Ag Au Cd Cu Ga Hg In Ni Pd Rh Sn Tl Zn,Ag Au Cd Cu Ga Hg In Pd Sn Zn,,0,0,0,,0,2.224496306,3.2833115371900825,0
+xrf_random_forest_prep_group_co_fe_pct,3,316,80,169,42,34,22,19,Ag Au Cd Cu Ga Hg In Ni Pd Rh Sn Tl Zn,Ag Au Cd Cu Ga Hg In Pd Tl Zn,,0,0,0,,0,2.224496306,3.2438293966942147,2
+xrf_random_forest_prep_group_co_fe_pct,4,314,82,169,42,32,21,16,Ag Au Cd Cu Ga Hg In Pd Rh Sn Tl Zn,Ag Au Cd Cu Ga In Ni Pd Sn Tl Zn,Ni,1,2,1,,1,2.224496306,3.2833115371900825,0
+xrf_ridge_element_group_co_fe_pct,0,292,104,152,59,29,8,0,Ag Au Cd Cu Ga Hg In Ni Pd Rh Sn Tl Zn,Ag Au Cd Cu Pd Zn,,0,0,0,,1,2.224496306,3.2833115371900825,0
+xrf_ridge_element_group_co_fe_pct,1,297,99,147,64,29,8,0,Ag Au Cd Cu Ga Hg In Ni Pd Sn Tl Zn,Ag Au Cd Ga Pd Rh Tl Zn,Rh,1,3,1,,3,2.224496306,3.174833512,5
+xrf_ridge_element_group_co_fe_pct,2,349,47,185,26,30,7,0,Ag Au Cd Cu Ga Hg In Pd Rh Sn Tl Zn,Ag Au Cd Ga In Ni Pd Tl,Ni,1,2,1,,3,2.224496306,3.2833115371900825,0
+xrf_ridge_element_group_co_fe_pct,3,275,121,159,52,30,7,0,Ag Au Cd Cu Ga Hg In Ni Pd Rh Tl Zn,Ag Au Cu Pd Sn Tl Zn,Sn,1,14,6,,1,2.3698278595041327,3.2833115371900825,12
+xrf_ridge_element_group_co_fe_pct,4,371,25,201,10,30,7,0,Ag Au Cd Cu Ga In Ni Pd Rh Sn Tl Zn,Ag Au Cd Cu Ga Hg In Pd Tl,Hg,1,5,2,,0,2.224496306,3.2833115371900825,0
+xrf_ridge_prep_group_co_fe_pct,0,312,84,168,43,34,23,20,Ag Au Cd Cu Ga Hg In Ni Pd Sn Tl Zn,Ag Au Cd Cu Ga In Pd Rh Sn Zn,Rh,1,3,1,,0,2.224496306,3.2833115371900825,0
+xrf_ridge_prep_group_co_fe_pct,1,320,76,169,42,37,14,14,Ag Au Cd Cu Ga Hg In Ni Pd Rh Sn Tl Zn,Ag Au Cu Ga In Pd Sn Zn,,0,0,0,,0,2.24029662,3.2833115371900825,1
+xrf_ridge_prep_group_co_fe_pct,2,322,74,169,42,36,22,21,Ag Au Cd Cu Ga Hg In Ni Pd Rh Sn Tl Zn,Ag Au Cd Cu Ga Hg In Pd Sn Zn,,0,0,0,,0,2.224496306,3.2833115371900825,0
+xrf_ridge_prep_group_co_fe_pct,3,316,80,169,42,34,22,19,Ag Au Cd Cu Ga Hg In Ni Pd Rh Sn Tl Zn,Ag Au Cd Cu Ga Hg In Pd Tl Zn,,0,0,0,,0,2.224496306,3.2438293966942147,2
+xrf_ridge_prep_group_co_fe_pct,4,314,82,169,42,32,21,16,Ag Au Cd Cu Ga Hg In Pd Rh Sn Tl Zn,Ag Au Cd Cu Ga In Ni Pd Sn Tl Zn,Ni,1,2,1,,1,2.224496306,3.2833115371900825,0

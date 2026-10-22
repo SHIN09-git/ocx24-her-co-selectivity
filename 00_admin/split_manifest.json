@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-10-12T05:11:33.646995+00:00",
+  "seed": 20261012,
+  "rule": "10 randomly selected sorted nominal element sets; no target-dependent adjustment",
+  "holdout_element_groups": [
+    "Au-Cd-Cu",
+    "Au-Cd-Ga",
+    "Au-Cd-Pd",
+    "Au-Hg-Pd",
+    "Au-Tl",
+    "Cd-Pd",
+    "Cu-Rh",
+    "Hg-Pd",
+    "Rh",
+    "Zn"
+  ],
+  "hashes": {
+    "features.csv": "bf417d971c9a0cde34bb12d640956c4e4f4211557b7fbb200f157e9a8a3447ec",
+    "development_targets.csv": "77dff48e08db9d47ee0f98779c9e78662ecc2631fb676fac1180158fc64b4552",
+    "holdout_targets.csv": "d61bcda52d139701c86580e8c4cdd5a9b3e79618330ba37bbc1850f86f3b0ac1"
+  }
+}

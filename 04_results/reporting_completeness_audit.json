@@ -1,0 +1,210 @@
+{
+  "models_refit": 0,
+  "fold_coverage_rows": 87,
+  "fold_screening_rows": 164,
+  "main_and_stress_coverage": [
+    {
+      "task": "nominal_random_forest_batch_id_co_fe_pct",
+      "fold": 0,
+      "unseen_nominal_elements": "Ni",
+      "affected_electrodes": 2,
+      "validation_electrodes": 70
+    },
+    {
+      "task": "nominal_random_forest_batch_id_co_fe_pct",
+      "fold": 1,
+      "unseen_nominal_elements": "Rh",
+      "affected_electrodes": 3,
+      "validation_electrodes": 54
+    },
+    {
+      "task": "nominal_random_forest_batch_id_co_fe_pct",
+      "fold": 2,
+      "unseen_nominal_elements": "Sn",
+      "affected_electrodes": 14,
+      "validation_electrodes": 154
+    },
+    {
+      "task": "nominal_random_forest_batch_id_co_fe_pct",
+      "fold": 3,
+      "unseen_nominal_elements": "",
+      "affected_electrodes": 0,
+      "validation_electrodes": 83
+    },
+    {
+      "task": "nominal_random_forest_batch_id_co_fe_pct",
+      "fold": 4,
+      "unseen_nominal_elements": "",
+      "affected_electrodes": 0,
+      "validation_electrodes": 43
+    },
+    {
+      "task": "nominal_random_forest_element_group_co_fe_pct",
+      "fold": 0,
+      "unseen_nominal_elements": "",
+      "affected_electrodes": 0,
+      "validation_electrodes": 105
+    },
+    {
+      "task": "nominal_random_forest_element_group_co_fe_pct",
+      "fold": 1,
+      "unseen_nominal_elements": "Rh",
+      "affected_electrodes": 3,
+      "validation_electrodes": 99
+    },
+    {
+      "task": "nominal_random_forest_element_group_co_fe_pct",
+      "fold": 2,
+      "unseen_nominal_elements": "Ni",
+      "affected_electrodes": 2,
+      "validation_electrodes": 81
+    },
+    {
+      "task": "nominal_random_forest_element_group_co_fe_pct",
+      "fold": 3,
+      "unseen_nominal_elements": "Sn",
+      "affected_electrodes": 14,
+      "validation_electrodes": 93
+    },
+    {
+      "task": "nominal_random_forest_element_group_co_fe_pct",
+      "fold": 4,
+      "unseen_nominal_elements": "",
+      "affected_electrodes": 0,
+      "validation_electrodes": 26
+    },
+    {
+      "task": "nominal_random_forest_source_co_fe_pct",
+      "fold": 0,
+      "unseen_nominal_elements": "Cd Hg Ni Rh Tl",
+      "affected_electrodes": 72,
+      "validation_electrodes": 214
+    },
+    {
+      "task": "nominal_random_forest_source_co_fe_pct",
+      "fold": 1,
+      "unseen_nominal_elements": "Sn Zn",
+      "affected_electrodes": 106,
+      "validation_electrodes": 190
+    }
+  ],
+  "primary_fold_screening": [
+    {
+      "task": "nominal_random_forest_element_group_co_fe_pct",
+      "fold": 0,
+      "model": "M0",
+      "candidate_groups": 61,
+      "top_k": 13,
+      "hits": 3,
+      "recall": 0.23076923076923078,
+      "enrichment": 1.0828402366863907
+    },
+    {
+      "task": "nominal_random_forest_element_group_co_fe_pct",
+      "fold": 0,
+      "model": "M1",
+      "candidate_groups": 61,
+      "top_k": 13,
+      "hits": 6,
+      "recall": 0.46153846153846156,
+      "enrichment": 2.1656804733727815
+    },
+    {
+      "task": "nominal_random_forest_element_group_co_fe_pct",
+      "fold": 1,
+      "model": "M0",
+      "candidate_groups": 64,
+      "top_k": 13,
+      "hits": 7,
+      "recall": 0.5384615384615384,
+      "enrichment": 2.650887573964497
+    },
+    {
+      "task": "nominal_random_forest_element_group_co_fe_pct",
+      "fold": 1,
+      "model": "M1",
+      "candidate_groups": 64,
+      "top_k": 13,
+      "hits": 1,
+      "recall": 0.07692307692307693,
+      "enrichment": 0.37869822485207105
+    },
+    {
+      "task": "nominal_random_forest_element_group_co_fe_pct",
+      "fold": 2,
+      "model": "M0",
+      "candidate_groups": 36,
+      "top_k": 8,
+      "hits": 3,
+      "recall": 0.375,
+      "enrichment": 1.6875
+    },
+    {
+      "task": "nominal_random_forest_element_group_co_fe_pct",
+      "fold": 2,
+      "model": "M1",
+      "candidate_groups": 36,
+      "top_k": 8,
+      "hits": 5,
+      "recall": 0.625,
+      "enrichment": 2.8125
+    },
+    {
+      "task": "nominal_random_forest_element_group_co_fe_pct",
+      "fold": 3,
+      "model": "M0",
+      "candidate_groups": 44,
+      "top_k": 9,
+      "hits": 4,
+      "recall": 0.4444444444444444,
+      "enrichment": 2.1728395061728394
+    },
+    {
+      "task": "nominal_random_forest_element_group_co_fe_pct",
+      "fold": 3,
+      "model": "M1",
+      "candidate_groups": 44,
+      "top_k": 9,
+      "hits": 4,
+      "recall": 0.4444444444444444,
+      "enrichment": 2.1728395061728394
+    },
+    {
+      "task": "nominal_random_forest_element_group_co_fe_pct",
+      "fold": 4,
+      "model": "M0",
+      "candidate_groups": 11,
+      "top_k": 3,
+      "hits": 1,
+      "recall": 0.3333333333333333,
+      "enrichment": 1.2222222222222223
+    },
+    {
+      "task": "nominal_random_forest_element_group_co_fe_pct",
+      "fold": 4,
+      "model": "M1",
+      "candidate_groups": 11,
+      "top_k": 3,
+      "hits": 2,
+      "recall": 0.6666666666666666,
+      "enrichment": 2.4444444444444446
+    }
+  ],
+  "batch_clustered_intervals": [
+    {
+      "task": "nominal_random_forest_batch_id_co_fe_pct",
+      "cluster": "batch_id",
+      "electrodes": 404,
+      "prep_groups": 216,
+      "M0_MAE": 15.934036130144763,
+      "M1_MAE": 15.174264743200503,
+      "gain_pp_or_V": 0.7597713869442604,
+      "relative_gain_pct": 4.768229347157616,
+      "gain_CI95_low": -0.5140890894668326,
+      "gain_CI95_high": 2.270215093378943,
+      "bootstrap_positive_fraction_descriptive": 0.8788,
+      "cluster_count": 19
+    }
+  ],
+  "scope": "Coverage uses only stored inputs; all metrics use stored predictions. Supplemental reporting after unsealing; no new selection or independent validation."
+}

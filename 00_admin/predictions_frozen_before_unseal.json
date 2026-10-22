@@ -1,0 +1,21 @@
+{
+  "utc": "2026-10-12T05:23:05.906414+00:00",
+  "predictions_sha256": "562f94c698367ab18ab14c5c91224cce313b8551e865278c7e82d006b3acad32",
+  "protocol_sha256": "08c58518f4394ca80754b3ce9ee65db98501b81e349900d99dfa92559d11b17e",
+  "code_sha256": {
+    "analysis_core.py": "6566c2161b550768e0a27ce2ee214eee16732929c2d076b77392d8ef86983776",
+    "build_dataset.py": "a50ca35798cb9b0ae50b72bec2d1e31d69304a266b837b9a29d26da2a14c83e9",
+    "download_sources.py": "e9fc2833d5e101855238c83da426ae092bb04e528b8aeba50c88a59e80078b22",
+    "evaluate_holdout.py": "e50b537ed7d6eaa84e21109cb3795c1d1dd8efe0a6791272c1ad64c25a3b494f",
+    "freeze_protocol.py": "96f148e81f44c08c43b573330cf9ba490495f6493973e8f95df6022d2af225e1",
+    "initialize.py": "52c0ad78f82b916237b6752717203e56732ad5c250e6fb4955eab6d650b4cca9",
+    "inspect_inputs.py": "17b8f80134647baccf959742930804b916975db5d22e556dd3f421d59839c56f",
+    "literature_audit.py": "63ead054780be59b3c5d290ed5dba735c46418469baaef5b0f3469177194b407",
+    "read_paper_sections.py": "07eed2ca1e17d9e23a41925e5e704bfc6e60a85b958ed4023939047a507031c0",
+    "run_controls.py": "0786a4719ebde70bb51cdf5b424cbf4e0a4892d24cedb6a958b86a5bced268a5",
+    "run_primary.py": "b7d1ebdc1e245ae1db1e2ee2ded584d8717ecd481bd089a530b17060e9e68760",
+    "validate_analysis.py": "40b3207952a237dce21f19e12f1d77d0df21f46216f99f491712ae7e65b114ee",
+    "verify_reproduction.py": "0864349317570e0e0bdc37eb161833fb2805429ffe06fa08f92dcb5e98831061"
+  },
+  "decision_before_unseal": "Close positive-screening route: development main comparisons do not meet 3 pp and 10% gain. Holdout is a final prespecified evaluation, not a chance to retune."
+}

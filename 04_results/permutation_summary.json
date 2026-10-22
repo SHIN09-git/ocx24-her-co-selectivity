@@ -1,0 +1,28 @@
+[
+  {
+    "permutation_group": "prep_group",
+    "electrodes_with_permutable_group": 292,
+    "prep_groups": 104,
+    "element_groups": 35,
+    "correct_pair_electrode_MAE": 11.494137402719382,
+    "mean_shuffled_electrode_MAE": 11.55669618268557,
+    "shuffled_minus_correct_MAE": 0.06255877996618876,
+    "CI95_low": -0.06370402400124739,
+    "CI95_high": 0.1893942051007923,
+    "permutation_iterations": 200,
+    "interpretation": "Validation-only reliance diagnostic; positive means correct pairing helps; not a causal or exact-null test"
+  },
+  {
+    "permutation_group": "batch_id",
+    "electrodes_with_permutable_group": 398,
+    "prep_groups": 210,
+    "element_groups": 37,
+    "correct_pair_electrode_MAE": 12.71470122701537,
+    "mean_shuffled_electrode_MAE": 13.239165479262972,
+    "shuffled_minus_correct_MAE": 0.5244642522476022,
+    "CI95_low": 0.019434950522921494,
+    "CI95_high": 1.3207317571164143,
+    "permutation_iterations": 200,
+    "interpretation": "Validation-only reliance diagnostic; positive means correct pairing helps; not a causal or exact-null test"
+  }
+]

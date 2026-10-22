@@ -1,0 +1,22 @@
+{
+  "task": "final_holdout",
+  "fold": "holdout",
+  "training_electrodes": 404,
+  "validation_electrodes": 37,
+  "training_prep_groups": 216,
+  "validation_prep_groups": 14,
+  "training_element_sets": 38,
+  "validation_element_sets": 10,
+  "shared_element_sets": 0,
+  "training_elements": "Ag Au Cd Cu Ga Hg In Ni Pd Rh Sn Tl Zn",
+  "validation_elements": "Au Cd Cu Ga Hg Pd Rh Tl Zn",
+  "unseen_nominal_elements": "",
+  "unseen_element_count": 0,
+  "affected_electrodes": 0,
+  "affected_prep_groups": 0,
+  "unseen_sources": "",
+  "unseen_batch_count": 0,
+  "training_HER_min_V": 2.224496306,
+  "training_HER_max_V": 3.2833115371900825,
+  "validation_HER_outside_training_range": 1
+}

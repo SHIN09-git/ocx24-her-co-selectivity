@@ -1,0 +1,26 @@
+[
+  {
+    "electrode_id": "uoft6_240624_Au-0.7-Cd-0.3_pp0_rep1",
+    "official": {
+      "Au": 0.614,
+      "Cd": 0.386
+    },
+    "reconstructed": null
+  },
+  {
+    "electrode_id": "uoft6_240624_Au-0.833-Cd-0.167_pp0_rep1",
+    "official": {
+      "Au": 0.768,
+      "Cd": 0.232
+    },
+    "reconstructed": null
+  },
+  {
+    "electrode_id": "uoft6_240624_Au-0.833-Cd-0.167_pp0_rep2",
+    "official": {
+      "Au": 0.768,
+      "Cd": 0.232
+    },
+    "reconstructed": null
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "cff_schema": "1.2.0",
+  "markdown_local_links": 78,
+  "html_local_links": 15,
+  "embedded_unchanged_figures": 7,
+  "full_replay_input_fingerprint_matches": true,
+  "original_selected_files_unchanged": 163,
+  "packaging_modified_originals": [
+    "03_analysis/analysis_core.py",
+    "03_analysis/build_dataset.py",
+    "03_analysis/evaluate_holdout.py",
+    "03_analysis/authorized_review.py",
+    "05_reports/首期计算研究报告.md"
+  ],
+  "private_path_or_obvious_credential_pattern_matches": []
+}

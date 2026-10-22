@@ -1,0 +1,10 @@
+{
+  "frozen_utc": "2026-10-12T05:14:03.258724+00:00",
+  "sha256": {
+    "00_admin\\preregistered_analysis_plan.json": "08c58518f4394ca80754b3ce9ee65db98501b81e349900d99dfa92559d11b17e",
+    "00_admin\\split_manifest.json": "cbf0a3d8826bc65ee261fe304efdd2c8113478d369719e1ff368dc03a4f26414",
+    "02_data\\features.csv": "bf417d971c9a0cde34bb12d640956c4e4f4211557b7fbb200f157e9a8a3447ec",
+    "02_data\\development_targets.csv": "77dff48e08db9d47ee0f98779c9e78662ecc2631fb676fac1180158fc64b4552",
+    "02_data\\holdout_targets.csv": "d61bcda52d139701c86580e8c4cdd5a9b3e79618330ba37bbc1850f86f3b0ac1"
+  }
+}
