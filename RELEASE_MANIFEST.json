@@ -4,8 +4,8 @@
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 210,
-      "sha256": "0739ae1bd54f327444b816ed2bbc23a8edd0458f61d6e039fb6ff6b261399ac8"
+      "bytes": 250,
+      "sha256": "e5e721adf3be30bdff950bf597ec64c0dd899ae073870a789d891a0b29e21078"
     },
     {
       "path": ".github/workflows/reproduce.yml",

@@ -1,4 +1,4 @@
-* text=auto
+* text=auto eol=lf
 *.py text eol=lf
 *.md text eol=lf
 *.txt text eol=lf
@@ -9,5 +9,6 @@
 02_data/** -text
 03_analysis/** -text
 04_results/** -text
+05_reports/数据字典.md -text
 *.png binary
 
