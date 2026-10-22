@@ -10,5 +10,6 @@
 03_analysis/** -text
 04_results/** -text
 05_reports/数据字典.md -text
+provenance/** -text
 *.png binary
 
